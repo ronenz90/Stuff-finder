@@ -86,21 +86,7 @@
     "https://www.ynet.co.il/topics/מכירה_פומבית/1",
     "https://www.zap.co.il/models.aspx"
   ],
-  "matches": [
-    {
-      "product_id": "iraqi-kiddush-cup",
-      "product_name": "גביע קידוש עירקי",
-      "alert_email_key": "",
-      "alert_email": "",
-      "title": "גביע קידוש - בי יוניק - עיצוב הבית – בי יוניק עיצוב... | Be Unique Home Decor",
-      "snippet": "גביע קידוש יוקרתי לא רק מתפקד ככלי לשתיית היין, אלא גם כפריט דקורטיבי שמשדרג את שולחן החג והשבת. גביע קידוש עשוי חומרים יוקרתיים מעניק לו מראה של פאר והוד. גביע עשוי כסף או קריסטל, לדוגמה, מציע ברק ייחודי ותחושת אלגנטיות שמחברת בין המסורת לבין עיצוב מודרני.",
-      "url": "https://beunique-homedecor.com/collections/גביע-קידוש",
-      "source": "duckduckgo",
-      "score": 66,
-      "is_sale_page": true,
-      "found_at": "2026-07-20T20:04:27.841484+00:00"
-    }
-  ],
+  "matches": [],
   "last_scan": "2026-07-20T20:55:14.676942+00:00",
   "product_last_scan": {
     "iraqi-kiddush-cup": "2026-07-20T20:54:36.751998+00:00"
