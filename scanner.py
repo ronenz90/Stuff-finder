@@ -399,19 +399,56 @@ def resolve_alert_email(entry: dict) -> str:
     return (entry.get("alert_email") or "").strip()
 
 
+def _smtp_config():
+    """
+    קורא הגדרות SMTP גנריות — עובד עם כל שירות (Brevo, Mailjet, SendGrid...).
+    תאימות לאחור: אם הוגדרו GMAIL_USER/GMAIL_APP_PASSWORD הישנים — ישתמש בהם.
+    """
+    host = os.environ.get("SMTP_HOST", "").strip()
+    if host:
+        return {
+            "host": host,
+            "port": int(os.environ.get("SMTP_PORT", "587")),
+            "user": os.environ.get("SMTP_USER", "").strip(),
+            "password": os.environ.get("SMTP_PASSWORD", "").strip(),
+            "from_addr": os.environ.get("SMTP_FROM", "").strip()
+            or os.environ.get("SMTP_USER", "").strip(),
+        }
+    # תאימות לאחור ל-Gmail
+    if os.environ.get("GMAIL_USER"):
+        return {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "user": os.environ.get("GMAIL_USER", "").strip(),
+            "password": os.environ.get("GMAIL_APP_PASSWORD", "").strip(),
+            "from_addr": os.environ.get("GMAIL_USER", "").strip(),
+        }
+    return None
+
+
+def _smtp_connect(c):
+    """פורט 465 ← SSL ישיר; אחרת (587) ← STARTTLS."""
+    if c["port"] == 465:
+        server = smtplib.SMTP_SSL(c["host"], c["port"], timeout=30)
+    else:
+        server = smtplib.SMTP(c["host"], c["port"], timeout=30)
+        server.starttls()
+    server.login(c["user"], c["password"])
+    return server
+
+
 def send_email(new_matches: list, pending: list):
     """
     שולח התראות לפי הנמען של כל מוצר:
-    - למוצר עם alert_email — ההתראות שלו נשלחות לאותה כתובת
+    - למוצר עם מייל מוצפן — ההתראות שלו נשלחות לאותה כתובת
     - למוצר בלי — נשלח לכתובת הכללית מה-Secret (ALERT_EMAIL)
     כתובת שמופיעה בכמה מוצרים מקבלת מייל אחד מרוכז.
     """
-    user = os.environ.get("GMAIL_USER")
-    password = os.environ.get("GMAIL_APP_PASSWORD")
-    default_to = os.environ.get("ALERT_EMAIL", user)
+    c = _smtp_config()
+    default_to = os.environ.get("ALERT_EMAIL", "").strip() or (c and c["from_addr"])
 
-    if not user or not password:
-        print("[!] לא הוגדרו GMAIL_USER / GMAIL_APP_PASSWORD — מדלג על שליחת מייל.")
+    if not c or not c["user"] or not c["password"]:
+        print("[!] לא הוגדרו פרטי SMTP (SMTP_HOST/USER/PASSWORD) — מדלג על שליחת מייל.")
         return
 
     # קיבוץ מציאות לפי נמען (הפענוח קורה כאן בלבד, בזיכרון)
@@ -424,8 +461,8 @@ def send_email(new_matches: list, pending: list):
     if not by_recipient and pending:
         by_recipient[default_to] = []
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(user, password)
+    server = _smtp_connect(c)
+    try:
         for to_addr, matches in by_recipient.items():
             n = len(matches)
             subject = (
@@ -438,11 +475,13 @@ def send_email(new_matches: list, pending: list):
 
             msg = MIMEMultipart("alternative")
             msg["Subject"] = subject
-            msg["From"] = user
+            msg["From"] = c["from_addr"]
             msg["To"] = to_addr
             msg.attach(MIMEText(_build_html(matches, pend_n), "html", "utf-8"))
-            server.sendmail(user, [to_addr], msg.as_string())
+            server.sendmail(c["from_addr"], [to_addr], msg.as_string())
             print(f"[✓] נשלח מייל אל {to_addr} ({n} מציאות)")
+    finally:
+        server.quit()
 
 
 # ---------------------------------------------------------------------------
