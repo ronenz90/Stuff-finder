@@ -489,6 +489,31 @@ def send_email(new_matches: list, pending: list):
 # ---------------------------------------------------------------------------
 
 
+# תדירות סריקה פר-מוצר: ה-workflow רץ כל שעה, וכל מוצר נסרק רק אם עבר זמנו.
+# 0.9 = סובלנות של 10% כי תזמוני GitHub לא מדויקים (שלא נפספס ריצה שהגיעה מוקדם ב-2 דקות).
+FREQ_SECONDS = {
+    "hourly": 3600,
+    "daily": 86400,
+    "weekly": 604800,
+    "monthly": 2592000,
+}
+
+
+def product_is_due(product: dict, last_scans: dict, now_ts: float) -> bool:
+    if os.environ.get("FORCE_SCAN", "").lower() == "true":
+        return True  # הרצה ידנית — סורקים הכל
+    freq = product.get("scan_frequency", "hourly")  # רשומות ישנות בלי שדה ← כל ריצה
+    interval = FREQ_SECONDS.get(freq, 3600)
+    last_iso = last_scans.get(product.get("id", ""), "")
+    if not last_iso:
+        return True
+    try:
+        last_ts = datetime.fromisoformat(last_iso).timestamp()
+    except ValueError:
+        return True
+    return (now_ts - last_ts) >= interval * 0.9
+
+
 def main():
     products = load_json(PRODUCTS_FILE, [])
     found = load_json(FOUND_FILE, {"seen_urls": [], "matches": []})
@@ -499,12 +524,21 @@ def main():
         return
 
     new_matches, pending = [], []
+    last_scans = found.get("product_last_scan", {})
+    now = datetime.now(timezone.utc)
 
     for product in products:
         if not product.get("active", True):
             continue
         pname = product.get("names", {}).get("he") or product.get("names", {}).get("en", "?")
+
+        if not product_is_due(product, last_scans, now.timestamp()):
+            freq = product.get("scan_frequency", "hourly")
+            print(f"⏭ מדלג על '{pname}' — תדירות '{freq}', טרם הגיע זמנו.")
+            continue
+
         print(f"\n=== סורק: {pname} ===")
+        last_scans[product.get("id", "")] = now.isoformat()
 
         candidates = {}
         for q in build_queries(product):
@@ -565,6 +599,7 @@ def main():
     found["seen_urls"] = sorted(seen)
     found["matches"] = (found.get("matches", []) + new_matches)[-500:]
     found["last_scan"] = datetime.now(timezone.utc).isoformat()
+    found["product_last_scan"] = last_scans
     save_json(FOUND_FILE, found)
 
     old_pending = load_json(PENDING_FILE, [])
