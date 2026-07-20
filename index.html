@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>צייד המציאות · מערכת מעקב מוצרים</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/libsodium-wrappers@0.7.15/dist/modules/libsodium-wrappers.min.js"></script>
+<style>
+:root{
+  --bg:#ECEEF0; --surface:#FFFFFF; --ink:#22262B; --muted:#6B7480;
+  --line:#D6DADE; --accent:#2E6E63; --accent-ink:#FFFFFF;
+  --amber:#B07A1F; --danger:#A33B2E; --silver:#AEB6BD;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Heebo',sans-serif;font-size:15px;line-height:1.6}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 80px}
+
+header{padding:28px 0 20px;border-bottom:2px solid var(--ink)}
+header h1{font-family:'Frank Ruhl Libre',serif;font-weight:900;font-size:30px;letter-spacing:.3px}
+header p{color:var(--muted);margin-top:4px;font-size:14px}
+.status-line{margin-top:10px;font-size:13px;color:var(--muted)}
+.status-line b{color:var(--accent)}
+
+nav{display:flex;gap:4px;margin:18px 0;flex-wrap:wrap}
+nav button{flex:1;min-width:100px;background:none;border:1px solid var(--line);border-radius:8px;
+  padding:10px 8px;font-family:'Heebo';font-size:14px;font-weight:500;cursor:pointer;color:var(--muted)}
+nav button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+section{display:none}
+section.on{display:block;animation:fade .25s ease}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:14px}
+.card h2{font-family:'Frank Ruhl Libre',serif;font-weight:700;font-size:19px;margin-bottom:10px}
+.card h3{font-size:15px;font-weight:700;margin:14px 0 6px}
+label{display:block;font-size:13px;font-weight:500;color:var(--muted);margin:12px 0 4px}
+input,textarea,select{width:100%;border:1px solid var(--line);border-radius:8px;padding:10px 12px;
+  font-family:'Heebo';font-size:14px;background:#FAFBFC;color:var(--ink)}
+input:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+textarea{min-height:110px;resize:vertical}
+.hint{font-size:12px;color:var(--muted);margin-top:4px}
+
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);border:none;border-radius:8px;
+  padding:11px 20px;font-family:'Heebo';font-size:14px;font-weight:700;cursor:pointer;margin-top:14px}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--ink)}
+.btn.small{padding:7px 14px;font-size:13px;margin-top:8px}
+.btn.danger{background:none;color:var(--danger);border:1px solid var(--danger)}
+.btn:disabled{opacity:.5;cursor:wait}
+
+/* חותמת hallmark — האלמנט החתימתי */
+.stamp{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.5px;
+  border:1.5px solid currentColor;border-radius:3px;padding:2px 8px;
+  box-shadow:inset 0 1px 2px rgba(0,0,0,.15)}
+.stamp.ok{color:var(--accent)}
+.stamp.wait{color:var(--amber)}
+.stamp.off{color:var(--silver)}
+
+.item{border:1px solid var(--line);border-radius:10px;padding:14px;margin:10px 0;background:#FCFCFD}
+.item .t{font-weight:700;font-size:15px}
+.item .m{color:var(--muted);font-size:13px;margin-top:3px;word-break:break-word}
+.item a{color:var(--accent);font-weight:700;text-decoration:none;font-size:14px}
+.item a:hover{text-decoration:underline}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
+
+.empty{text-align:center;color:var(--muted);padding:30px 10px;font-size:14px}
+.toast{position:fixed;bottom:18px;right:50%;transform:translateX(50%);background:var(--ink);color:#fff;
+  padding:12px 22px;border-radius:10px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .3s;z-index:9}
+.toast.show{opacity:1}
+.promptbox{background:#F3F4F6;border:1px dashed var(--silver);border-radius:8px;padding:12px;
+  font-family:monospace;font-size:12px;white-space:pre-wrap;max-height:260px;overflow:auto;direction:ltr;text-align:left}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>צייד המציאות</h1>
+  <p>מעקב אוטומטי אחר מוצרים למכירה ברשת · סריקה, אימות והתראות במייל</p>
+  <div class="status-line" id="statusLine">מתחבר לריפו…</div>
+</header>
+
+<nav>
+  <button class="on" data-tab="products">📦 מוצרים</button>
+  <button data-tab="matches">🔔 מציאות</button>
+  <button data-tab="ai">🤖 סינון AI</button>
+  <button data-tab="settings">⚙️ הגדרות</button>
+</nav>
+
+<!-- ============ מוצרים ============ -->
+<section id="products" class="on">
+
+  <div class="card">
+    <h2>📷 יש רק תמונה? ניתוח ב-AI</h2>
+    <p class="hint">ה-AI יהפוך את התמונה למחרוזות חיפוש מקצועיות וימלא את הטופס למטה אוטומטית.</p>
+    <h3>הוראות שימוש</h3>
+    <ol style="padding-right:20px;font-size:13.5px;color:var(--muted)">
+      <li>פתח את כלי ה-AI החינמי שלך (Claude / ChatGPT / Gemini) <b>וצרף את תמונת המוצר</b></li>
+      <li>אם ברקע יש חפצים נוספים או רקע עמוס — הוסף שורה משלך אחרי הפרומפט,
+          לדוגמה: <i>"Focus on the silver cup in the center, ignore the tray behind it"</i></li>
+      <li>אם ידוע לך מידע שלא רואים בתמונה (תקופה, מקור, יוצר) — הוסף גם אותו כשורה</li>
+      <li>הדבק את הפרומפט, שלח, והדבק את תשובת ה-JSON בשדה למטה</li>
+    </ol>
+    <div class="promptbox" id="imgPromptBox"></div>
+    <button class="btn small" onclick="copyImgPrompt()">📋 העתקת פרומפט התמונה</button>
+    <label>הדבקת תשובת ה-AI</label>
+    <textarea id="imgAiOutput" dir="ltr" placeholder='{"name_he":"...","name_en":"...","visual_description_he":"...","search_keywords":["..."]}' style="min-height:80px"></textarea>
+    <button class="btn ghost small" onclick="fillFromImageAI()">⬇ מילוי הטופס מהתשובה</button>
+  </div>
+
+  <div class="card">
+    <h2>הוספת מוצר למעקב</h2>
+    <label>שם בעברית *</label>
+    <input id="pHe" placeholder="לדוגמה: גביע קידוש עירקי">
+    <label>שם באנגלית *</label>
+    <input id="pEn" placeholder="e.g. Iraqi Kiddush Cup" dir="ltr">
+    <label>שמות בשפות נוספות (אופציונלי, שורה לכל שפה: קוד=שם)</label>
+    <textarea id="pMore" placeholder="fr=Coupe de Kiddouch irakienne&#10;ar=كأس الكيدوش العراقي" dir="ltr" style="min-height:60px"></textarea>
+    <label>מילות חיפוש נוספות (שורה לכל שאילתה)</label>
+    <textarea id="pKw" placeholder="Iraqi silver kiddush cup bird lid antique" style="min-height:60px"></textarea>
+    <label>מייל להתראות על מוצר זה</label>
+    <input id="pEmail" type="email" dir="ltr" placeholder="collector@example.com">
+    <p class="hint">🔒 הכתובת <b>לא נשמרת בקובץ הציבורי</b> — היא מוצפנת ונשמרת כ-Secret בריפו. אם כתובת זהה כבר קיימת, המערכת תשתמש ב-Secret הקיים. השאר ריק לשימוש בכתובת הכללית (ALERT_EMAIL).</p>
+    <label>קישור לתמונה (אופציונלי)</label>
+    <input id="pImg" placeholder="https://..." dir="ltr">
+    <label>תיאור חזותי (עוזר לסינון AI)</label>
+    <input id="pNotes" placeholder="גביע כסף עם מכסה כיפתי וציפור בראשו">
+    <button class="btn" onclick="addProduct()">שמירת המוצר בריפו</button>
+  </div>
+  <div class="card">
+    <h2>מוצרים במעקב</h2>
+    <div id="productList"><div class="empty">טוען…</div></div>
+    <button class="btn ghost small" onclick="triggerScan()">▶ הרצת סריקה עכשיו</button>
+  </div>
+</section>
+
+<!-- ============ מציאות ============ -->
+<section id="matches">
+  <div class="card">
+    <h2>מציאות מאומתות</h2>
+    <p class="hint">כל קישור כאן עבר בדיקת דף חי ללא סימני "נמכר" בזמן הסריקה.</p>
+    <div id="matchList"><div class="empty">טוען…</div></div>
+  </div>
+</section>
+
+<!-- ============ AI ============ -->
+<section id="ai">
+  <div class="card">
+    <h2>שלב 1 · העתקת הפרומפט</h2>
+    <p class="hint">תוצאות בציון ביניים ממתינות לשיפוט. העתק את הפרומפט והדבק בכלי ה-AI החינמי שלך (Claude, ChatGPT, Gemini).</p>
+    <div id="pendingCount" class="status-line" style="margin:8px 0"></div>
+    <div class="promptbox" id="promptBox">אין כרגע תוצאות הממתינות לסינון.</div>
+    <button class="btn small" onclick="copyPrompt()">📋 העתקת הפרומפט</button>
+  </div>
+  <div class="card">
+    <h2>שלב 2 · הדבקת התשובה</h2>
+    <p class="hint">הדבק כאן את פלט ה-JSON שקיבלת מה-AI:</p>
+    <textarea id="aiOutput" dir="ltr" placeholder='[{"url":"...","match":true,"score":92,"reason":"..."}]'></textarea>
+    <button class="btn" onclick="processAI()">עיבוד התשובה</button>
+    <div id="aiResults"></div>
+  </div>
+</section>
+
+<!-- ============ הגדרות ============ -->
+<section id="settings">
+  <div class="card">
+    <h2>⏱ תדירות הסריקה</h2>
+    <p class="hint">הבחירה מעדכנת את קובץ התזמון בריפו. דורש הרשאת <b>Workflows: Read and write</b> בטוקן.</p>
+    <label>סריקה אוטומטית</label>
+    <select id="cronFreq">
+      <option value="hourly">שעתי — כל שעה</option>
+      <option value="daily">יומי — 09:15 שעון ישראל</option>
+      <option value="weekly">שבועי — יום ראשון 09:15</option>
+      <option value="monthly">חודשי — ה-1 בחודש 09:15</option>
+    </select>
+    <div class="status-line" id="cronStatus" style="margin-top:8px"></div>
+    <button class="btn" onclick="saveCron()">עדכון התדירות בריפו</button>
+  </div>
+  <div class="card">
+    <h2>חיבור לריפו</h2>
+    <p class="hint">הנתונים נשמרים בדפדפן שלך בלבד (localStorage) ולא נשלחים לשום מקום מלבד GitHub.</p>
+    <label>שם משתמש GitHub</label>
+    <input id="cfgOwner" dir="ltr" placeholder="your-username">
+    <label>שם הריפו</label>
+    <input id="cfgRepo" dir="ltr" placeholder="product-tracker">
+    <label>Personal Access Token (הרשאת contents + actions)</label>
+    <input id="cfgToken" type="password" dir="ltr" placeholder="github_pat_...">
+    <p class="hint">יצירה: GitHub ← Settings ← Developer settings ← Fine-grained tokens. תן הרשאות Read/Write על הריפו הזה בלבד ל: <b>Contents</b> (שמירת מוצרים), <b>Actions</b> (הרצת סריקה), <b>Workflows</b> (שינוי תדירות), <b>Secrets</b> (הצפנת כתובות מייל).</p>
+    <button class="btn" onclick="saveConfig()">שמירה והתחברות</button>
+  </div>
+</section>
+
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ===================== מצב וכלים ===================== */
+const S = { products:[], found:{matches:[],seen_urls:[]}, pending:[], sha:{} };
+const cfg = () => ({
+  owner: localStorage.getItem('gh_owner')||'',
+  repo:  localStorage.getItem('gh_repo')||'',
+  token: localStorage.getItem('gh_token')||''
+});
+const $  = id => document.getElementById(id);
+const toast = m => { const t=$('toast'); t.textContent=m; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2600); };
+const esc = s => (s||'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const b64enc = s => btoa(unescape(encodeURIComponent(s)));
+const b64dec = s => decodeURIComponent(escape(atob(s)));
+
+/* ===================== GitHub API ===================== */
+async function gh(path, opts={}){
+  const c = cfg();
+  const r = await fetch(`https://api.github.com/repos/${c.owner}/${c.repo}/${path}`, {
+    ...opts,
+    headers:{ 'Authorization':`Bearer ${c.token}`, 'Accept':'application/vnd.github+json', ...(opts.headers||{}) }
+  });
+  if(!r.ok && r.status!==404) throw new Error(`GitHub API ${r.status}: ${(await r.text()).slice(0,150)}`);
+  return r;
+}
+async function readFile(name, fallback){
+  const r = await gh(`contents/${name}?t=${Date.now()}`);
+  if(r.status===404) return fallback;
+  const j = await r.json();
+  S.sha[name] = j.sha;
+  try{ return JSON.parse(b64dec(j.content.replace(/\n/g,''))); }catch{ return fallback; }
+}
+async function writeFile(name, data, msg){
+  const body = { message:msg, content:b64enc(JSON.stringify(data,null,2)) };
+  if(S.sha[name]) body.sha = S.sha[name];
+  const r = await gh(`contents/${name}`, {method:'PUT', body:JSON.stringify(body)});
+  const j = await r.json();
+  S.sha[name] = j.content && j.content.sha;
+}
+
+/* ===================== טעינה ===================== */
+async function loadAll(){
+  const c = cfg();
+  if(!c.owner||!c.repo||!c.token){
+    $('statusLine').innerHTML = 'לא מחובר · עבור ל<b>הגדרות</b> כדי להתחבר לריפו';
+    showTab('settings'); return;
+  }
+  try{
+    $('statusLine').textContent = 'טוען נתונים מהריפו…';
+    S.products = await readFile('products.json', []);
+    S.found    = await readFile('found.json', {matches:[],seen_urls:[],last_scan:null});
+    S.pending  = await readFile('pending_review.json', []);
+    const last = S.found.last_scan ? new Date(S.found.last_scan).toLocaleString('he-IL') : 'טרם רצה';
+    $('statusLine').innerHTML = `מחובר אל <b>${esc(c.owner)}/${esc(c.repo)}</b> · סריקה אחרונה: <b>${last}</b>`;
+    renderProducts(); renderMatches(); renderAI();
+    loadCron();
+  }catch(e){
+    $('statusLine').textContent = 'שגיאת התחברות: ' + e.message;
+  }
+}
+document.addEventListener('DOMContentLoaded', ()=>{ $('imgPromptBox').textContent = IMAGE_PROMPT; });
+
+/* ===================== מוצרים ===================== */
+function renderProducts(){
+  const el = $('productList');
+  if(!S.products.length){ el.innerHTML='<div class="empty">אין מוצרים עדיין. הוסף את הראשון למעלה ⬆</div>'; return; }
+  el.innerHTML = S.products.map((p,i)=>`
+    <div class="item">
+      <div class="row" style="justify-content:space-between;margin:0">
+        <span class="t">${esc(p.names?.he||'')} · <span dir="ltr">${esc(p.names?.en||'')}</span></span>
+        <span class="stamp ${p.active!==false?'ok':'off'}">${p.active!==false?'במעקב':'מושהה'}</span>
+      </div>
+      ${p.notes?`<div class="m">${esc(p.notes)}</div>`:''}
+      <div class="m">📧 ${p.alert_email_key?`<span dir="ltr">${esc(p.alert_email_hint||p.alert_email_key)}</span> 🔒`:(p.alert_email?`<span dir="ltr">${esc(p.alert_email)}</span>`:'הכתובת הכללית (ALERT_EMAIL)')}</div>
+      <div class="row">
+        <button class="btn ghost small" onclick="toggleProduct(${i})">${p.active!==false?'השהיה':'הפעלה'}</button>
+        <button class="btn danger small" onclick="removeProduct(${i})">מחיקה</button>
+      </div>
+    </div>`).join('');
+}
+async function addProduct(){
+  const he=$('pHe').value.trim(), en=$('pEn').value.trim();
+  if(!he||!en){ toast('נדרש שם בעברית ובאנגלית'); return; }
+  const names={he,en};
+  $('pMore').value.split('\n').forEach(l=>{ const m=l.match(/^\s*(\w{2,5})\s*=\s*(.+)$/); if(m) names[m[1]]=m[2].trim(); });
+  const email = $('pEmail').value.trim();
+  let alertKey = '', alertHint = '';
+  if(email){
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ toast('כתובת המייל אינה תקינה'); return; }
+    try{
+      toast('מאבטח את כתובת המייל…');
+      alertKey = await ensureEmailSecret(email);
+      alertHint = maskEmail(email);
+    }catch(e){ toast(e.message); return; }
+  }
+  S.products.push({
+    id: en.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'-'+Date.now().toString(36),
+    names,
+    keywords: $('pKw').value.split('\n').map(s=>s.trim()).filter(Boolean),
+    image: $('pImg').value.trim(),
+    notes: $('pNotes').value.trim(),
+    alert_email_key: alertKey,
+    alert_email_hint: alertHint,
+    active: true,
+    added_at: new Date().toISOString()
+  });
+  await writeFile('products.json', S.products, `➕ מוצר חדש: ${he}`);
+  ['pHe','pEn','pMore','pKw','pImg','pNotes','pEmail'].forEach(id=>$(id).value='');
+  renderProducts(); toast('המוצר נשמר · ייסרק בסריקה הבאה');
+}
+async function toggleProduct(i){
+  S.products[i].active = S.products[i].active===false;
+  await writeFile('products.json', S.products, '🔄 עדכון סטטוס מוצר');
+  renderProducts();
+}
+async function removeProduct(i){
+  if(!confirm('למחוק את המוצר מהמעקב?')) return;
+  S.products.splice(i,1);
+  await writeFile('products.json', S.products, '🗑 מחיקת מוצר');
+  renderProducts(); toast('נמחק');
+}
+async function triggerScan(){
+  try{
+    await gh('actions/workflows/scan.yml/dispatches', {method:'POST', body:JSON.stringify({ref:'main'})});
+    toast('הסריקה הופעלה · תוצאות בעוד כמה דקות');
+  }catch(e){ toast('שגיאה: '+e.message); }
+}
+
+/* ===================== מציאות ===================== */
+function renderMatches(){
+  const el=$('matchList'), ms=[...(S.found.matches||[])].reverse();
+  if(!ms.length){ el.innerHTML='<div class="empty">עדיין לא נמצאו מציאות מאומתות.<br>הן יופיעו כאן אחרי הסריקות הבאות.</div>'; return; }
+  el.innerHTML = ms.map(m=>`
+    <div class="item">
+      <div class="row" style="justify-content:space-between;margin:0">
+        <span class="t">${esc(m.product_name)}</span>
+        <span class="stamp ok">התאמה ${m.score}%</span>
+      </div>
+      <div class="m">${esc(m.title)}</div>
+      <div class="m">${esc((m.snippet||'').slice(0,180))}</div>
+      <div class="row">
+        <a href="${esc(m.url)}" target="_blank" rel="noopener">מעבר לדף המוצר ←</a>
+        <span class="m">${new Date(m.found_at).toLocaleString('he-IL')}</span>
+      </div>
+    </div>`).join('');
+}
+
+/* ===================== סינון AI ===================== */
+function buildPrompt(){
+  if(!S.pending.length) return '';
+  const prods = S.products.map(p=>({id:p.id, names:p.names, visual_description:p.notes||'', image_url:p.image||''}));
+  const cands = S.pending.map(c=>({url:c.url, title:c.title, snippet:c.snippet, product_id:c.product_id}));
+  return `You are an expert product-matching analyst for a collector's watchlist.
+
+TASK: For each candidate search result below, decide whether it is genuinely a live sale listing of the tracked product (not an article, museum page, or a different product).
+
+TRACKED PRODUCTS:
+${JSON.stringify(prods,null,2)}
+
+CANDIDATE RESULTS:
+${JSON.stringify(cands,null,2)}
+
+RULES:
+1. "match" is true only if the page appears to SELL the specific tracked product (matching style, era, materials, distinctive features from visual_description).
+2. Similar-category items (e.g. a generic modern cup when tracking an antique one) => match=false.
+3. Museum pages, articles, forums => match=false.
+4. score = 0-100 confidence. reason = one short sentence in Hebrew.
+
+OUTPUT: Respond ONLY with a valid JSON array, no markdown fences, no extra text:
+[{"url":"...","match":true,"score":92,"reason":"..."}]`;
+}
+function renderAI(){
+  const p = buildPrompt();
+  $('pendingCount').innerHTML = S.pending.length
+    ? `<b>${S.pending.length}</b> תוצאות ממתינות לשיפוט`
+    : 'אין תוצאות ממתינות כרגע';
+  $('promptBox').textContent = p || 'אין כרגע תוצאות הממתינות לסינון. הפרומפט ייווצר אוטומטית אחרי סריקה שתמצא מועמדים.';
+}
+function copyPrompt(){
+  const p = buildPrompt();
+  if(!p){ toast('אין מה להעתיק'); return; }
+  navigator.clipboard.writeText(p).then(()=>toast('הפרומפט הועתק · הדבק ב-AI שלך'));
+}
+async function processAI(){
+  let out = $('aiOutput').value.trim().replace(/^```(json)?/i,'').replace(/```$/,'').trim();
+  let arr;
+  try{ arr = JSON.parse(out); if(!Array.isArray(arr)) throw 0; }
+  catch{ toast('הפלט אינו JSON תקין — ודא שהעתקת רק את המערך'); return; }
+
+  const byUrl = Object.fromEntries(arr.map(a=>[a.url, a]));
+  const approved=[], rejected=[];
+  S.pending.forEach(c=>{
+    const v = byUrl[c.url];
+    if(v && v.match) approved.push({...c, score:v.score??c.score, ai_reason:v.reason||''});
+    else rejected.push(c);
+  });
+
+  $('aiResults').innerHTML = `
+    <h3>תוצאות השיפוט</h3>
+    ${approved.map(a=>`<div class="item"><span class="stamp ok">אושר ${a.score}%</span>
+      <div class="m">${esc(a.title)}</div><div class="m">${esc(a.ai_reason)}</div>
+      <a href="${esc(a.url)}" target="_blank" rel="noopener">לדף המוצר ←</a></div>`).join('')}
+    ${rejected.length?`<p class="hint">${rejected.length} תוצאות נדחו ויוסרו מהרשימה.</p>`:''}
+    ${approved.length||rejected.length?`<button class="btn" onclick="commitAI()">שמירה: העברת המאושרות למציאות</button>`:''}
+  `;
+  S._aiApproved = approved;
+}
+async function commitAI(){
+  S.found.matches = (S.found.matches||[]).concat(S._aiApproved||[]);
+  S.pending = [];
+  await writeFile('found.json', S.found, '🤖 מציאות שאושרו בסינון AI');
+  await writeFile('pending_review.json', S.pending, '🧹 ניקוי תור הסינון');
+  $('aiOutput').value=''; $('aiResults').innerHTML='';
+  renderMatches(); renderAI(); showTab('matches');
+  toast('נשמר · המציאות מופיעות בלשונית 🔔');
+}
+
+/* ===================== מייל כ-Secret מוצפן ===================== */
+/*
+  זרימה: כתובת ← שם Secret דטרמיניסטי (hash) ← האם קיים בריפו?
+  כן ← משתמשים בו | לא ← מצפינים את הכתובת במפתח הציבורי של הריפו ויוצרים.
+  ב-products.json נשמר רק שם המפתח + רמז מוסווה לתצוגה. הכתובת עצמה לעולם לא.
+*/
+async function emailToSecretKey(email){
+  const norm = email.trim().toLowerCase();
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(norm));
+  const hex = [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,'0')).join('').slice(0,12).toUpperCase();
+  return 'ALERT_EMAIL_' + hex;
+}
+function maskEmail(email){
+  const [u,d] = email.split('@');
+  if(!d) return '***';
+  return u.slice(0,2) + '***@' + d.slice(0,2) + '***';
+}
+async function ensureEmailSecret(email){
+  const key = await emailToSecretKey(email);
+  // 1. האם ה-Secret כבר קיים? (ה-API חושף שמות בלבד, לא ערכים)
+  const listResp = await gh('actions/secrets?per_page=100');
+  const existing = (await listResp.json()).secrets?.map(s=>s.name) || [];
+  if(existing.includes(key)) return key;
+
+  // 2. לא קיים — הצפנה במפתח הציבורי של הריפו (sealed box) ויצירה
+  if(typeof sodium === 'undefined') throw new Error('ספריית ההצפנה לא נטענה — בדוק חיבור לרשת');
+  await sodium.ready;
+  const pkResp = await gh('actions/secrets/public-key');
+  const pk = await pkResp.json();
+  const cipher = sodium.crypto_box_seal(
+    sodium.from_string(email.trim()),
+    sodium.from_base64(pk.key, sodium.base64_variants.ORIGINAL)
+  );
+  const putResp = await fetch(
+    `https://api.github.com/repos/${cfg().owner}/${cfg().repo}/actions/secrets/${key}`,
+    { method:'PUT',
+      headers:{ 'Authorization':`Bearer ${cfg().token}`, 'Accept':'application/vnd.github+json' },
+      body: JSON.stringify({
+        encrypted_value: sodium.to_base64(cipher, sodium.base64_variants.ORIGINAL),
+        key_id: pk.key_id
+      })
+    });
+  if(!putResp.ok) throw new Error(`יצירת ה-Secret נכשלה (${putResp.status}) — ודא שלטוקן יש הרשאת Secrets`);
+  return key;
+}
+
+
+/* ===================== פרומפט ניתוח תמונה ===================== */
+const IMAGE_PROMPT = `You are a product-identification specialist working for a collector's automated search system.
+
+I am attaching a photo of an item I want to track for sale across the web.
+
+HOW TO READ THE PHOTO:
+1. Identify the MAIN item only. Ignore the background, table/surface, hands, props, packaging, other objects, shadows, watermarks and any text overlays. If several items appear, focus on the most prominent/central one unless I state otherwise below the prompt.
+2. Describe only what is actually visible. Do NOT invent a maker, era or origin. If you infer style/region/period from visible characteristics, mark it as "likely" or "in the style of".
+3. If parts of the item are cut off or unclear, describe what is visible and note the uncertainty briefly.
+
+ANALYZE THE ITEM:
+- Object type and function
+- Materials and finish (e.g. silver, brass, hammered, engraved, patina)
+- Distinctive identifying features: shapes, figures (animals, flowers), lids, handles, bases, engravings, hallmarks
+- Style / regional tradition / estimated era (only if visually supported)
+- Notable condition clues (wear, repairs) only if they help identification
+
+OUTPUT: Respond ONLY with valid JSON, no markdown fences, no extra text:
+{
+  "name_he": "short product name in Hebrew",
+  "name_en": "short product name in English",
+  "visual_description_he": "2-3 sentence visual description in Hebrew focusing on identifying features",
+  "search_keywords": ["3-6 short web-search queries in English, each combining the strongest identifying terms, e.g. 'antique Iraqi silver kiddush cup bird finial'"]
+}`;
+
+function copyImgPrompt(){
+  navigator.clipboard.writeText(IMAGE_PROMPT).then(()=>toast('הפרומפט הועתק · צרף את התמונה ב-AI והדבק'));
+}
+function fillFromImageAI(){
+  let out = $('imgAiOutput').value.trim().replace(/^```(json)?/i,'').replace(/```$/,'').trim();
+  let j;
+  try{ j = JSON.parse(out); }catch{ toast('הפלט אינו JSON תקין — ודא שהעתקת את כולו'); return; }
+  if(j.name_he) $('pHe').value = j.name_he;
+  if(j.name_en) $('pEn').value = j.name_en;
+  if(j.visual_description_he) $('pNotes').value = j.visual_description_he;
+  if(Array.isArray(j.search_keywords)) $('pKw').value = j.search_keywords.join('\n');
+  $('imgAiOutput').value='';
+  toast('הטופס מולא · בדוק, ערוך אם צריך, ושמור');
+  $('pHe').scrollIntoView({behavior:'smooth', block:'center'});
+}
+
+/* ===================== ניהול תדירות (cron) ===================== */
+const CRON_MAP = {
+  hourly:  {cron:'15 * * * *',  label:'כל שעה'},
+  daily:   {cron:'15 6 * * *',  label:'פעם ביום (09:15 ישראל)'},
+  weekly:  {cron:'15 6 * * 0',  label:'פעם בשבוע (ראשון 09:15)'},
+  monthly: {cron:'15 6 1 * *',  label:'פעם בחודש (ה-1, 09:15)'}
+};
+const WF_PATH = '.github/workflows/scan.yml';
+
+async function loadCron(){
+  try{
+    const r = await gh(`contents/${encodeURIComponent(WF_PATH)}?t=${Date.now()}`);
+    if(r.status===404){ $('cronStatus').textContent='קובץ התזמון לא נמצא בריפו'; return; }
+    const j = await r.json();
+    S.sha[WF_PATH] = j.sha;
+    S._wfContent = b64dec(j.content.replace(/\n/g,''));
+    const m = S._wfContent.match(/cron:\s*'([^']+)'/);
+    const cur = m ? m[1] : '';
+    const key = Object.keys(CRON_MAP).find(k=>CRON_MAP[k].cron===cur);
+    if(key){ $('cronFreq').value = key; $('cronStatus').innerHTML = `תדירות נוכחית: <b>${CRON_MAP[key].label}</b>`; }
+    else if(cur){ $('cronStatus').innerHTML = `תדירות מותאמת אישית: <b dir="ltr">${esc(cur)}</b>`; }
+  }catch(e){ $('cronStatus').textContent = 'לא ניתן לקרוא את קובץ התזמון: '+e.message; }
+}
+async function saveCron(){
+  if(!S._wfContent){ await loadCron(); if(!S._wfContent){ toast('קובץ התזמון לא נטען'); return; } }
+  const sel = CRON_MAP[$('cronFreq').value];
+  const updated = S._wfContent.replace(/(cron:\s*)'[^']+'/, `$1'${sel.cron}'`);
+  try{
+    const body = { message:`⏱ תדירות סריקה: ${sel.label}`, content:b64enc(updated), sha:S.sha[WF_PATH] };
+    const r = await gh(`contents/${encodeURIComponent(WF_PATH)}`, {method:'PUT', body:JSON.stringify(body)});
+    const j = await r.json();
+    S.sha[WF_PATH] = j.content && j.content.sha;
+    S._wfContent = updated;
+    $('cronStatus').innerHTML = `תדירות נוכחית: <b>${sel.label}</b>`;
+    toast('התדירות עודכנה בריפו');
+  }catch(e){
+    toast('נכשל — ודא שלטוקן יש הרשאת Workflows: '+e.message);
+  }
+}
+
+/* ===================== ניווט והגדרות ===================== */
+function showTab(id){
+  document.querySelectorAll('section').forEach(s=>s.classList.toggle('on', s.id===id));
+  document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on', b.dataset.tab===id));
+}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+function saveConfig(){
+  localStorage.setItem('gh_owner', $('cfgOwner').value.trim());
+  localStorage.setItem('gh_repo',  $('cfgRepo').value.trim());
+  localStorage.setItem('gh_token', $('cfgToken').value.trim());
+  toast('נשמר · מתחבר…'); showTab('products'); loadAll();
+}
+(function init(){
+  const c=cfg();
+  $('cfgOwner').value=c.owner; $('cfgRepo').value=c.repo; $('cfgToken').value=c.token;
+  loadAll();
+})();
+</script>
+</body>
+</html>
