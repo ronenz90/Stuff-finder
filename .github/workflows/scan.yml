@@ -2,9 +2,10 @@ name: Product Scan
 
 on:
   schedule:
-    # כל שעה בדקה 15. לסריקה יומית החלף ל: '15 6 * * *' (06:15 UTC = 09:15 שעון ישראל)
+    # רץ כל שעה — אבל התדירות בפועל נקבעת פר-מוצר בלוח הבקרה (שעתי/יומי/שבועי/חודשי).
+    # הסורק מדלג אוטומטית על מוצרים שטרם הגיע זמנם, כך שריצות ביניים הן קצרות וזולות.
     - cron: '15 * * * *'
-  workflow_dispatch: {}   # מאפשר הרצה ידנית מכפתור "Run workflow"
+  workflow_dispatch: {}   # מאפשר הרצה ידנית מכפתור "Run workflow" (סורק הכל, בלי קשר לתדירות)
 
 permissions:
   contents: write         # כדי לשמור את found.json חזרה לריפו
@@ -31,6 +32,8 @@ jobs:
 
       - name: Run scanner
         env:
+          # הרצה ידנית סורקת את כל המוצרים, בלי קשר לתדירות שלהם
+          FORCE_SCAN: ${{ github.event_name == 'workflow_dispatch' }}
           # שירות מייל (Brevo/Mailjet/SendGrid/כל SMTP) — ראה README
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
