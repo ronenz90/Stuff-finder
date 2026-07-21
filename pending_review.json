@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Ceramic Kiddush Cup - eBay",
+    "snippet": "Explore a wide range of our Ceramic Kiddush Cup selection. Find top brands, exclusive offers, and unbeatable prices on eBay. Shop now for fast shipping and easy returns!",
+    "url": "https://www.ebay.com/shop/ceramic-kiddush-cup?_nkw=ceramic+kiddush+cup",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-21T13:01:20.634452+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Amazon.com: Kiddush Cups & Sets - Kiddush Cups & Sets / Glassware ...",
+    "snippet": "The Dreidel Company Tall Kiddush Cup With Leg Grape Design, Premium Quality Silver Plated Goblet, Shabbat and Havdalah Goblet, Judaica Shabbos and Holiday Gift (Grape-Design with Leg) (1-Pack) Silver Add to cart",
+    "url": "https://www.amazon.com/Kiddush-Cups-Sets-Glassware-Drinkware/b?node=16961529011",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-21T13:01:22.998587+00:00"
+  }
+]
