@@ -5,7 +5,12 @@ on:
     # רץ כל שעה — אבל התדירות בפועל נקבעת פר-מוצר בלוח הבקרה (שעתי/יומי/שבועי/חודשי).
     # הסורק מדלג אוטומטית על מוצרים שטרם הגיע זמנם, כך שריצות ביניים הן קצרות וזולות.
     - cron: '15 * * * *'
-  workflow_dispatch: {}   # מאפשר הרצה ידנית מכפתור "Run workflow" (סורק הכל, בלי קשר לתדירות)
+  workflow_dispatch:
+    inputs:
+      notify_only:
+        description: 'רק שליחת התראות על מציאות שאושרו (בלי סריקה)'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write         # כדי לשמור את found.json חזרה לריפו
@@ -32,8 +37,9 @@ jobs:
 
       - name: Run scanner
         env:
-          # הרצה ידנית סורקת את כל המוצרים, בלי קשר לתדירות שלהם
-          FORCE_SCAN: ${{ github.event_name == 'workflow_dispatch' }}
+          # הרצה ידנית רגילה סורקת את כל המוצרים; notify_only שולח רק התראות
+          FORCE_SCAN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.notify_only != 'true' }}
+          NOTIFY_ONLY: ${{ github.event.inputs.notify_only }}
           # שירות מייל (Brevo/Mailjet/SendGrid/כל SMTP) — ראה README
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
