@@ -45,16 +45,8 @@ jobs:
           FORCE_SCAN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.notify_only != 'true' }}
           NOTIFY_ONLY: ${{ github.event.inputs.notify_only }}
           TEST_EMAIL: ${{ github.event.inputs.test_email }}
-          # שירות מייל (Brevo/Mailjet/SendGrid/כל SMTP) — ראה README
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          # שליחת מייל דרך FormSubmit — צריך רק את כתובת היעד:
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
-          # תאימות לאחור למי שכבר הגדיר Gmail:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           # אופציונלי — ספקי חיפוש נוספים (המערכת עובדת גם בלעדיהם):
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
