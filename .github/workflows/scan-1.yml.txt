@@ -1,0 +1,75 @@
+name: Product Scan
+
+on:
+  schedule:
+    # רץ כל שעה — אבל התדירות בפועל נקבעת פר-מוצר בלוח הבקרה (שעתי/יומי/שבועי/חודשי).
+    # הסורק מדלג אוטומטית על מוצרים שטרם הגיע זמנם, כך שריצות ביניים הן קצרות וזולות.
+    - cron: '15 * * * *'
+  workflow_dispatch:
+    inputs:
+      notify_only:
+        description: 'רק שליחת התראות על מציאות שאושרו (בלי סריקה)'
+        required: false
+        default: 'false'
+      test_email:
+        description: 'שליחת מייל בדיקה בלבד (אבחון SMTP)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write         # כדי לשמור את found.json חזרה לריפו
+
+concurrency:
+  group: product-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scanner
+        env:
+          # הרצה ידנית רגילה סורקת את כל המוצרים; notify_only שולח רק התראות
+          FORCE_SCAN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.notify_only != 'true' }}
+          NOTIFY_ONLY: ${{ github.event.inputs.notify_only }}
+          TEST_EMAIL: ${{ github.event.inputs.test_email }}
+          # שירות מייל (Brevo/Mailjet/SendGrid/כל SMTP) — ראה README
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          # תאימות לאחור למי שכבר הגדיר Gmail:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          # אופציונלי — ספקי חיפוש נוספים (המערכת עובדת גם בלעדיהם):
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          # כל ה-Secrets כ-JSON — לפענוח מפתחות מייל דינמיים (ALERT_EMAIL_xxx) שנוצרו מהממשק
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+        run: python scanner.py
+
+      - name: Commit results
+        run: |
+          git config user.name "product-tracker-bot"
+          git config user.email "actions@github.com"
+          git add found.json pending_review.json || true
+          git diff --cached --quiet || git commit -m "🔎 Scan results $(date -u +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin main || true
+          git push
