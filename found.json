@@ -133,7 +133,8 @@
       "source": "duckduckgo",
       "score": 100,
       "is_sale_page": true,
-      "found_at": "2026-07-21T00:08:59.511365+00:00"
+      "found_at": "2026-07-21T00:08:59.511365+00:00",
+      "notified": false
     },
     {
       "product_id": "iraqi-kiddush-cup",
