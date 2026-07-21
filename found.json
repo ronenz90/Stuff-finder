@@ -123,7 +123,7 @@
       "score": 100,
       "is_sale_page": true,
       "found_at": "2026-07-21T00:08:55.074390+00:00",
-      "notified": false
+      "notified": true
     },
     {
       "product_id": "iraqi-kiddush-cup",
@@ -137,7 +137,7 @@
       "score": 100,
       "is_sale_page": true,
       "found_at": "2026-07-21T00:08:59.511365+00:00",
-      "notified": false
+      "notified": true
     },
     {
       "product_id": "iraqi-kiddush-cup",
@@ -151,7 +151,7 @@
       "score": 100,
       "is_sale_page": true,
       "found_at": "2026-07-21T00:09:04.723268+00:00",
-      "notified": false
+      "notified": true
     }
   ],
   "last_scan": "2026-07-21T06:21:17.742797+00:00",
