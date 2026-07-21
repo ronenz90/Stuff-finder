@@ -30,5 +30,21 @@
     "price_raw": null,
     "notified": false,
     "found_at": "2026-07-21T20:33:53.182656+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Silver Plated Kiddush Cup – Touching His Hem",
+    "snippet": "Silver Plated Stem Kiddush Cup with Matching Plate - Jerusalem Design This Kiddush cup and matching plate is a great item that will be enjoyed by all ages.",
+    "url": "https://touchinghishem.eu/products/silver-kiddush-cup",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-21T22:11:26.489277+00:00"
   }
 ]
