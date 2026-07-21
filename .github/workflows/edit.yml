@@ -1,0 +1,73 @@
+name: Edit Data
+
+# עריכת מוצרים/מציאות דרך Actions — כך הטוקן והסיסמה נשארים מוסתרים ב-Secrets
+# ולעולם לא נחשפים בדפדפן. הדף רק "מבקש" פעולה; השרת מבצע אותה.
+
+on:
+  workflow_dispatch:
+    inputs:
+      password:
+        description: 'סיסמת העריכה'
+        required: true
+      action:
+        description: 'add_product | delete_product | toggle_product | set_freq | delete_match | resend_match | approve_ai'
+        required: true
+      payload:
+        description: 'נתוני הפעולה כ-JSON'
+        required: true
+        default: '{}'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edit-data
+  cancel-in-progress: false
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Apply edit
+        id: apply
+        env:
+          EDIT_PASSWORD: ${{ secrets.EDIT_PASSWORD }}
+          IN_PASSWORD: ${{ github.event.inputs.password }}
+          IN_ACTION: ${{ github.event.inputs.action }}
+          IN_PAYLOAD: ${{ github.event.inputs.payload }}
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+        run: python edit_data.py
+
+      - name: Commit
+        run: |
+          git config user.name "product-tracker-bot"
+          git config user.email "actions@github.com"
+          git add products.json found.json pending_review.json || true
+          git diff --cached --quiet || git commit -m "✏️ עריכה דרך הממשק: ${{ github.event.inputs.action }}"
+          git pull --rebase origin main || true
+          git push
+
+      - name: Send emails if needed
+        # אחרי אישור AI או בקשת שליחה חוזרת — שולח מייל על מציאות שטרם דווחו
+        if: github.event.inputs.action == 'approve_ai' || github.event.inputs.action == 'resend_match'
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+          NOTIFY_ONLY: 'true'
+        run: pip install requests && python scanner.py || true
