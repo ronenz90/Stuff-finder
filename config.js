@@ -5,5 +5,5 @@
 window.STUFF_FINDER_CONFIG = {
   owner: 'ronenz90',            // שם המשתמש שלך ב-GitHub
   repo:  'Stuff-finder',        // שם הריפו
-  proxyUrl: 'PASTE_VALTOWN_URL_HERE'  // כתובת ה-endpoint מ-val.town
+  proxyUrl: 'https://ronenz90--0f6e198c850f11f1879f1607ee4eb77e.web.val.run'  // כתובת ה-endpoint מ-val.town
 };
