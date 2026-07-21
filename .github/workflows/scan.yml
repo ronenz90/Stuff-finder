@@ -45,7 +45,9 @@ jobs:
           FORCE_SCAN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.notify_only != 'true' }}
           NOTIFY_ONLY: ${{ github.event.inputs.notify_only }}
           TEST_EMAIL: ${{ github.event.inputs.test_email }}
-          # שליחת מייל דרך FormSubmit — צריך רק את כתובת היעד:
+          # שליחת מייל דרך Resend — מפתח + כתובת שולח + יעד ברירת מחדל:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           # אופציונלי — ספקי חיפוש נוספים (המערכת עובדת גם בלעדיהם):
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
