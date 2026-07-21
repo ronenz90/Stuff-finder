@@ -14,5 +14,21 @@
     "price_raw": null,
     "notified": false,
     "found_at": "2026-07-21T19:18:59.306563+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Modern Sterling Silver Kiddush Set with 6 mini liqueur cups : Home...",
+    "snippet": "Each cup is coated with a layer of 14k gold to preserve the quality and taste of the wine while providing a sleek contrast to the sterling silver exterior. Arrange this set in any number of unique ways to suit your style, giving it your personal spin for any dinner party, gathering or special occasion.",
+    "url": "https://www.amazon.com/Modern-Sterling-Silver-Kiddush-liqueur/dp/B08GG7KT78",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-21T20:33:53.182656+00:00"
   }
 ]
