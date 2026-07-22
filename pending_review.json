@@ -78,5 +78,21 @@
     "price_raw": null,
     "notified": false,
     "found_at": "2026-07-22T03:41:19.553080+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Silver Kiddush Cup With Cover, Iraq. 19th-20th C Auction",
+    "snippet": "The cup is adorned with organic and geometric engravings, accompanied by a matching cover featuring a bird figurine. Height (with the cover) - 14 cm. Di{ellipsis}",
+    "url": "https://www.liveauctioneers.com/item/159011964_silver-kiddush-cup-with-cover-iraq-19th-20th-c",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-22T06:41:21.625629+00:00"
   }
 ]
