@@ -10,6 +10,7 @@
     "https://cja.huji.ac.il/gross/browser.php",
     "https://clydeon4th.co.za/products/silver/hallmarked-silver/russian-silver-kiddush-pedestal-cup",
     "https://collections.artsmia.org/art/9783/kiddush-iraq",
+    "https://de.aliexpress.com/item/1005006793542138.html",
     "https://dent-medmarketplace.com/products/foot-massager-with-heat",
     "https://dishcuss.com/explore.php",
     "https://dlz.co.il/skg-shiatsu-foot-massager-with",
@@ -55,6 +56,7 @@
     "https://netafim55.com/shop/shabbat/kiddush-cups/iraqi-leg-four-rivers-octagonal-silver-plated",
     "https://offerup.com/item/detail/1659397002",
     "https://player.pbs.org/viralplayer/3020932222",
+    "https://pt.aliexpress.com/item/1005006793542138.html",
     "https://rikmat.com/collections/שבת",
     "https://shop.thejewishmuseum.org/judaica/kiddush-cups",
     "https://shopee.com.my/jinkairui-electric-foot-massager-shiatsu-kneading-vibrator-infrared-heating-therapy-health-care-massage-device-i.128274284.5910093009",
@@ -92,10 +94,15 @@
     "https://www.alibaba.com/product-detail/sports-massage-equipment-electric-foot-massager_1601395611103.html",
     "https://www.alibaba.com/showroom/jinkairui-foot-massager.html",
     "https://www.aliexpress.com/i/32883763740.html",
+    "https://www.aliexpress.com/item/1005007467833576.html",
+    "https://www.aliexpress.com/item/1005007786286028.html",
+    "https://www.aliexpress.com/item/1005008917791102.html",
+    "https://www.aliexpress.com/item/1005010221279374.html",
     "https://www.aliexpress.com/w/wholesale-electric-foot-heat-massage.html",
     "https://www.aliexpress.com/w/wholesale-heat-foot-massager.html",
     "https://www.aliexpress.com/w/wholesale-hot-foot-massage.html",
     "https://www.aliexpress.com/w/wholesale-jinkairui-electric.html",
+    "https://www.aliexpress.com/w/wholesale-sterling+silver+kiddush+cup.html",
     "https://www.aliexpress.us/i/3256802593972126.html",
     "https://www.amazon.ca/nekteck-compression-circulation-adjustable-intensity/dp/b07wyx1d4h",
     "https://www.amazon.co.uk/foot-massager-vibration-rechargeable-circulation/dp/b0gtdwst7p",
@@ -248,6 +255,7 @@
     "https://www.zap.co.il/models.aspx",
     "https://yitaikangmassager.en.made-in-china.com",
     "https://ykzhengqi.en.made-in-china.com",
+    "https://yourstory.tenement.org/stories/kiddush-cup-1915",
     "https://ytzadik.co.il/product/גביע-קידוש-מהודר-מקרמיקה-עם-רגל-ותחתית-1"
   ],
   "matches": [
@@ -296,7 +304,7 @@
       "is_sale_page": false,
       "price_usd": null,
       "price_raw": null,
-      "notified": false,
+      "notified": true,
       "found_at": "2026-07-22T09:38:05.934394+00:00",
       "ai_reason": "עמוד מוצר פעיל של דגם JinKaiRui התואם למכשיר המבוקש."
     },
@@ -313,7 +321,7 @@
       "is_sale_page": true,
       "price_usd": null,
       "price_raw": null,
-      "notified": false,
+      "notified": true,
       "found_at": "2026-07-22T09:38:08.582539+00:00",
       "ai_reason": "עמוד רכישה פעיל של דגם JinKaiRui התואם לתיאור."
     },
@@ -330,7 +338,7 @@
       "is_sale_page": true,
       "price_usd": null,
       "price_raw": null,
-      "notified": false,
+      "notified": true,
       "found_at": "2026-07-22T09:38:52.546966+00:00",
       "ai_reason": "עמוד רכישה פעיל של מכשיר JinKaiRui תואם."
     },
@@ -347,7 +355,7 @@
       "is_sale_page": false,
       "price_usd": null,
       "price_raw": null,
-      "notified": false,
+      "notified": true,
       "found_at": "2026-07-22T09:38:55.774743+00:00",
       "ai_reason": "עמוד מוצר פעיל של JinKaiRui התואם לדגם."
     },
@@ -364,14 +372,14 @@
       "is_sale_page": true,
       "price_usd": null,
       "price_raw": null,
-      "notified": false,
+      "notified": true,
       "found_at": "2026-07-22T09:39:02.170145+00:00",
       "ai_reason": "עמוד רכישה פעיל של JinKaiRui התואם לתיאור."
     }
   ],
-  "last_scan": "2026-07-22T14:20:09.712732+00:00",
+  "last_scan": "2026-07-22T16:42:47.280065+00:00",
   "product_last_scan": {
-    "iraqi-kiddush-cup": "2026-07-22T14:19:33.371904+00:00",
+    "iraqi-kiddush-cup": "2026-07-22T16:42:00.019192+00:00",
     "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861": "2026-07-22T13:24:53.258549+00:00"
   }
 }
