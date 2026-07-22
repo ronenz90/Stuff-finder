@@ -13,5 +13,27 @@
     "notes": "גביע כסף עם מכסה כיפתי, ציפור בראש המכסה וצלחת תחתית מעוטרת",
     "active": true,
     "added_at": "2026-07-20T00:00:00Z"
+  },
+  {
+    "names": {
+      "he": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק JINKAIRUI",
+      "en": "JINKAIRUI Electric Shiatsu Foot Massager Machine with Heat and Remote Control"
+    },
+    "keywords": [
+      "JINKAIRUI electric foot massager heat remote",
+      "JINKAIRUI shiatsu foot massager machine",
+      "electric shiatsu foot massager with heat remote",
+      "heated foot massager machine remote control",
+      "black electric foot massager heat therapy"
+    ],
+    "image": "https://ae01.alicdn.com/kf/S97e1a10ef4464aa6b4dd0622465dab3fO.jpg",
+    "notes": "המכשיר המוצג הינו מכשיר עיסוי רגליים חשמלי בצבע שחור מתוצרת JINKAIRUI, הכולל שתי גומחות פתוחות להכנסת כפות הרגליים עם תאורת חימום אינפרא-אדום/חימום פנימי. בחלקו העליון המרכזי שוכן לוח פיקוד דיגיטלי קומפקטי בצורת יהלום להצגת מצבים וטיימר. לצד המכשיר מוצג שלט רחוק אלחוטי קטן המאפשר שליטה בעוצמת המעסה, הפעלת החימום, כיוון הטיימר ובחירת המצבים.",
+    "scan_frequency": "daily",
+    "max_price": 60,
+    "max_price_currency": "USD",
+    "alert_email": "yair_z54@walla.co.il",
+    "active": true,
+    "id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "added_at": "2026-07-22T09:34:21.156420+00:00"
   }
 ]
