@@ -1422,5 +1422,37 @@
     "price_raw": null,
     "notified": false,
     "found_at": "2026-07-22T13:28:56.080999+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביע קידוש מהודר מקרמיקה עם רגל ותחתית 15 ס\"מ | Ceramic Kiddush Cup 15 ...",
+    "snippet": "גביע קידוש קרמי מהודר בגובה 15 ס\"מ, עם רגל ותחתית תואמת. מעוטר באיור ירושלים ופסוק \"בורא פרי הגפן\" בזהב יוקרתי. מוסיף קדושה ויופי לשולחן השבת והחג. מתנה מושלמת המשלבת מסורת עם עיצוב מודרני.",
+    "url": "https://ytzadik.co.il/product/גביע-קידוש-מהודר-מקרמיקה-עם-רגל-ותחתית-1/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-22T14:20:05.066800+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kiddush Cup with a Plate and a Lid - Iraq - the 19th Century",
+    "snippet": "Auction, in Israel: Ancient Kiddush cup (the silver has been examined). Iraq, the 19th century. Popular engraved decorations. A bird on...",
+    "url": "https://www.lot-art.com/auction-lots/Kiddush-Cup-with-a-Plate-and-a-Lid-Iraq-the-19th-Century/289-kiddush_cup-27.8.18-king_david_auction",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-22T14:20:09.712487+00:00"
   }
 ]
