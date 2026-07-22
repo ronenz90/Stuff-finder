@@ -46,5 +46,37 @@
     "price_raw": null,
     "notified": false,
     "found_at": "2026-07-21T22:11:26.489277+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Yaacov Agam- Kiddush Cup for sale at auction on 28th July ...",
+    "snippet": "Artist: Yaacov Agam. Medium: Kiddush Cup. Size: 6\" x 3\". Signature: Hand Signed and Numbered by the artist. Additional: 24k gold plated sterling silver with agamograph in lucite.Edition of 1800. Signed and Numbered by the artist.",
+    "url": "https://www.bidsquare.com/online-auctions/robinhood-auctions/yaacov-agam--kiddush-cup-9597488",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-22T03:41:17.341870+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Set of Six Israeli Silver Kiddush Cups, Mark of Hadad Bros.",
+    "snippet": "Set of Six Israeli Silver Kiddush Cups, Mark of Hadad Bros. mid-20th century, .925 silver, with wreath repousse decoration to the bodies, gold wash inte{ellipsis}",
+    "url": "https://www.liveauctioneers.com/item/236689344_set-of-six-israeli-silver-kiddush-cups-mark-of-hadad-bros-hillsborough-nc",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-22T03:41:19.553080+00:00"
   }
 ]
