@@ -19,7 +19,8 @@
     "alert_email": "",
     "ship_to": "IL",
     "ship_to_he": "ישראל",
-    "ship_to_en": "Israel"
+    "ship_to_en": "Israel",
+    "site_group": "collectibles"
   },
   {
     "names": {
