@@ -13,7 +13,7 @@
     "notes": "גביע כסף עם מכסה כיפתי, ציפור בראש המכסה וצלחת תחתית מעוטרת",
     "active": true,
     "added_at": "2026-07-20T00:00:00Z",
-    "scan_frequency": "daily",
+    "scan_frequency": "hourly",
     "max_price": null,
     "max_price_currency": "USD",
     "alert_email": "",
