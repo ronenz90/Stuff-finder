@@ -388,22 +388,6 @@
       "notified": true,
       "found_at": "2026-07-22T09:39:02.170145+00:00",
       "ai_reason": "עמוד רכישה פעיל של JinKaiRui התואם לתיאור."
-    },
-    {
-      "product_id": "iraqi-kiddush-cup",
-      "product_name": "גביע קידוש עירקי",
-      "alert_email_key": "",
-      "alert_email": "",
-      "title": "shabbat for sale | eBay",
-      "snippet": "Antique big Silver Jewish Judaica Iraqi Kiddush cup hand Engraved Museum Quality.",
-      "url": "https://www.ebay.com/sch?_nkw=shabbat&_udlo=3350",
-      "source": "duckduckgo",
-      "score": 100,
-      "is_sale_page": true,
-      "price_usd": null,
-      "price_raw": null,
-      "notified": true,
-      "found_at": "2026-07-23T06:39:10.717436+00:00"
     }
   ],
   "last_scan": "2026-07-23T06:39:20.170828+00:00",
