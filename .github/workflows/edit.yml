@@ -40,6 +40,14 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Sync before edit
+        # קריטי: מסנכרן למצב העדכני *לפני* העריכה, כדי לא לעבוד על נתונים ישנים
+        run: |
+          git config user.name "product-tracker-bot"
+          git config user.email "actions@github.com"
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Apply edit
         id: apply
         env:
@@ -52,12 +60,29 @@ jobs:
 
       - name: Commit
         run: |
-          git config user.name "product-tracker-bot"
-          git config user.email "actions@github.com"
-          git add products.json found.json pending_review.json || true
-          git diff --cached --quiet || git commit -m "✏️ עריכה דרך הממשק: ${{ github.event.inputs.action }}"
-          git pull --rebase origin main || true
-          git push
+          # מוסיף רק קבצים שבאמת השתנו (git add -u על קבצים מנוהלים בלבד)
+          git add -u products.json found.json pending_review.json
+          if git diff --cached --quiet; then
+            echo "אין שינויים לשמירה."
+            exit 0
+          fi
+          git commit -m "✏️ עריכה: ${{ github.event.inputs.action }}"
+          # ניסיונות חוזרים במקרה של ריצה מקבילה — בלי לבלוע שגיאות
+          for i in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "נדחף בהצלחה (ניסיון $i)"
+              exit 0
+            fi
+            echo "push נכשל, מסנכרן ומנסה שוב ($i/5)…"
+            git pull --rebase origin main || {
+              echo "::error::rebase נכשל — מבטל כדי לא להשאיר את הריפו במצב שבור"
+              git rebase --abort || true
+              exit 1
+            }
+            sleep 3
+          done
+          echo "::error::לא הצלחתי לדחוף אחרי 5 ניסיונות"
+          exit 1
 
       - name: Send emails if needed
         # אחרי אישור AI או בקשת שליחה חוזרת — שולח מייל על מציאות שטרם דווחו
