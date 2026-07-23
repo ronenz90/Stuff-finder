@@ -126,5 +126,21 @@
     "price_raw": null,
     "notified": false,
     "found_at": "2026-07-22T18:20:49.517574+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביעי קידוש – tagged \"גביעי קידוש\" – סופר הום",
+    "snippet": "כוס קידוש ותחתית - נירוסטה-גביע קידוש כסוף-אבי מתנות-סופר הום.",
+    "url": "https://superhome.co.il/collections/גביעי-קידוש/גביעי-קידוש",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "notified": false,
+    "found_at": "2026-07-23T03:40:07.984739+00:00"
   }
 ]
