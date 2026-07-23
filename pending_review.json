@@ -124,5 +124,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-23T19:50:19.400885+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kedem Public Auction House Ltd - Jerusalem, IL - Bid Online | Invaluable",
+    "snippet": "Besides books and manuscripts, Kedem is interested in a wide variety of paper items such as letters, photographs, graphic items, and posters. It is also glad to offer in its auctions objects related to its specialty fields, including Hannuka lamps, Kiddush cups, Chala covers, and a variety of other objects of the Jewish home.",
+    "url": "https://www.invaluable.com/auction-house/kedem-public-auction-house-ltd-77ksf3dluj",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-23T21:31:30.098995+00:00"
   }
 ]
