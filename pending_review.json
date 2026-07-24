@@ -718,5 +718,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-24T15:52:13.203266+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביע קידוש נירוסטה מרוקע - יודאיקה חב''ד נתניה",
+    "snippet": "גביע קידוש נירוסטה מרוקע עם תחתיתצבע: כסף",
+    "url": "https://judaica-chabad.co.il/?product=גביע-קידוש-נירוסטה-מרוקע",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-24T17:54:41.542821+00:00"
   }
 ]
