@@ -1060,5 +1060,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-25T14:06:56.861148+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Antique Kiddush Cup - Metzger Property Services, LLC",
+    "snippet": "Home / Auctions / 09.14.25 -- Metzger Online Jewelry Auction! -- Gold, Silver, Gemstones, Wedding Sets, Turquoise, Copper, inc. Tiffany & Co. Pieces • Watches • Turquoise • Huge Qty. Costume Jewelry • Collector & Military Pins • Sterling Compacts, Clocks & More! -- N. Manchester, IN /Antique Kiddush Cup Prev Lot Back to Catalog Next Lot",
+    "url": "https://www.bidmetzger.com/auctions/31243/lot/1723599-antique-kiddush-cup",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-25T17:18:52.566445+00:00"
   }
 ]
