@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביעי קידוש - Yemenite-art",
+    "snippet": "$1,154 – $1,299 גביע קידוש קטן עם עץ דקל בטכניקת פיליגרן – כסף טהור $1,154 – $1,195 גביע קידוש קטן קלאסי עם בסיס פיליגרן – כסף טהור $1,114 גביע קידוש שבת שלום אובאלי עם אבני חן – כסף טהור $1,357 – $1,815",
+    "url": "https://yemenite-art.com/he/product-category/יודאיקה/גביעי-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 1154.0,
+    "price_raw": "$1,154",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-25T22:13:06.844850+00:00"
+  }
+]
