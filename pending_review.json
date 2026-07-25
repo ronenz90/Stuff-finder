@@ -898,5 +898,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-25T06:33:21.839329+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Sold at Auction: STERLING SILVER 925 KIDDUSH CUP, ELECTROFORMING, MADE BY \"BEN ZION,\" JERUSALEM",
+    "snippet": "",
+    "url": "https://www.invaluable.com/auction-lot/sterling-silver-925-kiddush-cup-electroforming-ma-184-c-1337893ef7",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-25T09:14:45.080433+00:00"
   }
 ]
