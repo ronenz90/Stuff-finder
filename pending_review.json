@@ -70,5 +70,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-27T17:57:56.909407+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "044. AN EARLY AND RARE KIDDUSH GOBLET BY... | J Greenstein",
+    "snippet": "A large silver kiddush cup →.A payment method is required to participate in this auction.",
+    "url": "https://jgreenstein.com/044-an-early-and-rare-kiddush-goblet-by-the-bezalel-school/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-27T21:32:11.724968+00:00"
   }
 ]
