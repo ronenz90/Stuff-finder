@@ -34,5 +34,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-27T15:17:00.265739+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Judaica Silver-Tone Cup & Plate Set Hebrew Inscription Jerusalem",
+    "snippet": "Antique Kiddush CUP.Antique Silver Plated Tea Set with Tray. Bethpage. $10. Vintage brass Kiddush Cup. Brighton Beach. $25. Set of 4 Vintage Silver Tone Metal Cups with Grapevine Design. Sunset Park. $18.",
+    "url": "https://www.karrotmarket.com/buy-sell/1xxc5w6iro65/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 10.0,
+    "price_raw": "$10",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-27T17:57:53.881894+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Pin by Lavender Craft on Decorative Kitchenware | Decorative tray...",
+    "snippet": "Description. Iraqi silver kiddush cup, First Half of the 20th Century.Silver-gilt Kiddush Cup Antique. Jewish Wine Fountain Set.",
+    "url": "https://www.pinterest.com/pin/decorative-kitchenware--818810775982760392/",
+    "source": "duckduckgo",
+    "score": 100,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-27T17:57:56.909407+00:00"
   }
 ]
