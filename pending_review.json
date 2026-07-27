@@ -88,5 +88,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-27T21:32:11.724968+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Sold Price: Kiddush Goblet. Silver. Iraq, Beginning of the ...",
+    "snippet": "Description Kiddush Goblet. 2 sections, silver, not hallmarked. Iraq, beginning of the 20th century.Height: 13 cm. Diameter: 6.5 cm.Delicate engraving work of three images of a bird in a bush and flowers, decorative stripe parallel to the upper lip. The goblet has a cover with a bird on top – in Iraqi style.Fine condition.",
+    "url": "https://www.invaluable.com/auction-lot/kiddush-goblet-silver-iraq-beginning-of-the-20th--172-c-95d4ef78ab",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-27T23:29:52.469217+00:00"
   }
 ]
