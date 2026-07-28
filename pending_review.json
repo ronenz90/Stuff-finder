@@ -124,5 +124,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-28T12:16:46.691033+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Emanuel Hammered Kiddush Fountain Cone Shape... - Zion Judaica",
+    "snippet": "Perfect for Kiddush on Shabbos. Measures 10\" x 8\". Also available with silver and multicolor rings. Designed by Yair Emanuel.Modern, hammered, nickel Kiddush Fountain with blue rings decorating the base ofeach cup.Comes with 1 Goblet and8 cups. Perfect for Kiddush on Shabbos.",
+    "url": "https://zionjudaica.com/product/emanuel-hammered-kiddush-fountain-cone-shape-blue-rings/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-28T21:34:06.657367+00:00"
   }
 ]
