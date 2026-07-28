@@ -106,5 +106,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-28T09:52:01.416372+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Amazon.com: Hazorfim Margarita Rounded Silver Kiddush Cup with...",
+    "snippet": "A beautiful Sterling silver 925 Kiddush cup 100% handmade in Israel by the world’s best silversmiths in the world’s largest silver plant.Our Majestic collection of Kiddush cups are all coated inside with a thin layer of gold to preserve the flavor of the wine. Contact us for expedited shipping.",
+    "url": "https://www.amazon.com/Hazorfim-Margarita-Sterling-handmade-hatzorfim/dp/B07874KRKF",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-28T12:16:46.691033+00:00"
   }
 ]
