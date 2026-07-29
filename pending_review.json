@@ -160,5 +160,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-29T03:44:27.829504+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביעי קידוש – פלדינוקס עיצוב הבית",
+    "snippet": "גביע קידוש נירוסטה כסף מעוטר יהלומים עם תחתית. מק\"ט: X5106.",
+    "url": "https://paldinox.co.il/product-category/יודאיקה/ראש-השנה/גביעי-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-29T06:47:38.828470+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Vintage and Antique Silver Chargers and Plates - 20 For Sale at 1stDibs",
+    "snippet": "Pampaloni taste & drink wine cups silver plated wooden package.Sterling Silver Kiddush Plate by Hadad In excellent condition, this is a beautiful piece.",
+    "url": "https://www.1stdibs.com/jewelry/silver-flatware-silverplate/silver-chargers-plates/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-29T06:47:41.221047+00:00"
   }
 ]
