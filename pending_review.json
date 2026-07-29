@@ -142,5 +142,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-28T21:34:06.657367+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Antique Kiddush Cup - 24 For Sale on 1stDibs",
+    "snippet": "Shop our antique kiddush cup selection from top sellers and makers around the world. Global shipping available.",
+    "url": "https://www.1stdibs.com/buy/antique-kiddush-cup/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-29T03:44:27.829504+00:00"
   }
 ]
