@@ -412,5 +412,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-29T10:01:06.563164+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "10 גביעי קידוש - יהודאי יודאיקה - תשמישי קדושה",
+    "snippet": "גביע קריסטל רגל מרובעת נצנצים כסף 16 ס\"מ מחירים ורכישה למנויים בלבד",
+    "url": "https://yehoodai.co.il/product-category/10-גביעי-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-29T17:41:16.126095+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Yair Emanuel Anodized Aluminium Goblet Kiddush Cup - Maroon",
+    "snippet": "Up-to-date maroon colored Kiddush cupDesigned by Judaica artist Yair Emanuel",
+    "url": "https://www.ajudaica.com/Yair-Emanuel-Anodized-Aluminium-Goblet-Kiddush-Cup-Maroon/item20167",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-29T17:41:18.858504+00:00"
   }
 ]
