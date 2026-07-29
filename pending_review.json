@@ -448,5 +448,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-29T17:41:18.858504+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "'גביע הקידוש' הקדום ביותר בעולם עומד למכירה: זה המחיר שמבקשים עליו",
+    "snippet": "לאחרונה נחשף בבית המכירות הפומביות סותבי'ס (Sotheby's) \" גביע השמחה\" גביע ה קידוש העתיק ביותר הידוע ששרד עד ימינו. גביע כסף יוצא דופן זה, המתוארך למאות ה-11 או ה-12, הוא חפץ הטקס היהודי הקדום ביותר הידוע מתקופת ימי הביניים.",
+    "url": "https://www.babli.co.il/in-the-world/t57axf",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-29T19:47:07.920823+00:00"
   }
 ]
