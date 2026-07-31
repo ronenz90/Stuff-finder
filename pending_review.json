@@ -214,5 +214,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-31T21:30:56.242093+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Oversized silver kiddush cup with - Leilão Bidspirit",
+    "snippet": "Discover and bid on fine art, antiques, jewelry, and collectibles from trusted auctioneers across the U.S. with BidSpirit’s online auction platform.",
+    "url": "https://us.bidspirit.com/ui/lotPage/alma/source/catalog/auction/50076/lot/151453/Oversized-silver-kiddush-cup-with?lang=pt",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-31T23:17:46.448875+00:00"
   }
 ]
