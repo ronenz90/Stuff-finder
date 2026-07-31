@@ -124,5 +124,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-31T08:13:03.026419+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Silver Plated Decorative Kiddush Cup with Plastic... | aJudaica.com",
+    "snippet": "Handsome silver plated metal Kiddush cup. Features ornate curving floral design. Detachable plastic insert for cup.",
+    "url": "https://www.ajudaica.com/Silver-Plated-Decorative-Kiddush-Cup-with-Plastic-Insert-and-Matching-Tray/item19347",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-31T13:08:36.288323+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Small Silver Kiddush Cup with Detailed Filigree Base - Yemenite-art",
+    "snippet": "This sterling silver kiddush cup is shaped like an hourglass for a classic minimalist style. The decorative base is a lovely display of Yemenite filigree.",
+    "url": "https://yemenite-art.com/product/sterling-silver-handcrafted-hourglass-kiddush-cup/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-31T13:08:40.346662+00:00"
   }
 ]
