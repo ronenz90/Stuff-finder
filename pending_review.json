@@ -196,5 +196,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-31T19:55:44.446192+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Plates Kiddush Cups & Fountains | Judaica Web Store",
+    "snippet": "For a Kiddush cup that will seamlessly blend the traditional ritual of Kiddush with the chic look of contemporary design, be sure to have a look at our vast collection of designer Kiddush cups from top Israeli designers.",
+    "url": "https://www.judaicawebstore.co.uk/kiddush-cups-C100/Plates.aspx",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-31T21:30:56.242093+00:00"
   }
 ]
