@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "33. A Silver Kiddush Cup in Honor of a Wedding | J Greenstein",
+    "snippet": "A payment method is required to participate in this auction.",
+    "url": "https://jgreenstein.com/33-a-silver-kiddush-cup-in-honor-of-a-wedding/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-31T04:45:33.021875+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Russian Silver 84 - 65 For Sale on 1stDibs | 84 zolotnik russian silver...",
+    "snippet": "Antique Large 84 Silver Russian Engraved Niello Kiddush Cup Beaker Moscow 1888.A good & finely engraved antique Russian Kiddush cup or beaker of larger size, Moscow, 1888.",
+    "url": "https://www.1stdibs.com/buy/russian-silver-84/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-07-31T04:45:36.824189+00:00"
+  }
+]
