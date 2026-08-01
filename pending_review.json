@@ -232,5 +232,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-07-31T23:17:46.448875+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Amazon Best Sellers: Best Kiddush Cups & Sets",
+    "snippet": "Discover the best Kiddush Cups & Sets in Best Sellers. Find the top 100 most popular items in Amazon Kitchen & Dining Best Sellers.",
+    "url": "https://www.amazon.com/Best-Sellers-Kitchen-Dining-Kiddush-Cups-Sets/zgbs/kitchen/16961529011/ref=zg_bs_nav_kitchen_2_13218151",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-01T03:53:34.997663+00:00"
   }
 ]
