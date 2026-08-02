@@ -286,5 +286,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-02T10:10:30.166975+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "IMPORTANT MODERN AND ANTIQUE JUDAICA starts on 4/2/2025",
+    "snippet": "A silver regency kiddush cup by johann mittnacht.A sterling silver kiddush goblet by bernie bernstein. Bid. A neo-classical silver havdallah compendium.",
+    "url": "https://www.estatesales.net/NY/Cedarhurst/11516/4377582",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-02T15:29:57.410011+00:00"
   }
 ]
