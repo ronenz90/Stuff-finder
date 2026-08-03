@@ -52,5 +52,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-03T03:59:00.353042+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Antique Russian Silver Kiddush Cup / Beaker - Ruby Lane",
+    "snippet": "This fine antique Russian silver Kiddush cup / beaker has a cylindrical tapering form onto a collet style base. The surface of the silver beaker is embellished with fine and impressive engraved decoration depicting a simplified archway revealing alternating leaf motif and city scenes.",
+    "url": "https://www.rubylane.com/item/2236771-W8096/Antique-Russian-Silver-Kiddush-Cup-Beaker",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-03T18:09:15.763211+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Antique Russian 84 silver Kiddush Cup-1882 - Ruby Lane",
+    "snippet": "This 5 1/2\" tall Kiddush cup was made in St. Petersburg Russia in 1882. It has the Russian hallmarks and a makers initials that we could not identify. It is in excellent used condition, quite sturdy with very minor scratches and some very small mostly unnoticeable dings. Lovely hand engraved simple designs and has a space for engraving if desired.",
+    "url": "https://www.rubylane.com/item/2102713-318/Antique-Russian-84-silver-Kiddush-Cup",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-03T18:09:18.185552+00:00"
   }
 ]
