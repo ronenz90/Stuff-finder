@@ -142,5 +142,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-04T03:42:30.719829+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Find and save ideas about silver tone ornate kiddush cup on Pinterest.",
+    "snippet": "Antique Silver Two-handled Cup.Traditional Silver Plated Kiddush Cup. Antique US Sterling Silver Giraffe Cup with Gold Rim | Antique silver baby cup for a one-of-a-kind gift, Antique sterling silver baby cup, Mugs.",
+    "url": "https://www.pinterest.com/ideas/silver-tone-ornate-kiddush-cup/898095507785/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-04T10:00:23.601169+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Diamond Design Silver Kiddush Cup - Messianic Marketplace",
+    "snippet": "This is a lovely silver Kiddush Cup/Plate with beautiful Diamond shaped design.",
+    "url": "https://messianicmarketplace.org/products/diamond-design-silver-kiddush-cup",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-04T10:00:26.030141+00:00"
   }
 ]
