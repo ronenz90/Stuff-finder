@@ -304,5 +304,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-04T19:59:29.622288+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Rose Shape Silver Kiddush Cup with Leaves Design",
+    "snippet": "Rose shaped, stemless sterling silver kiddush cup designed by Asher Alon, accented with a vine growing up its side. Simple elegance to welcome in Shabbat or the holidays.More Works by Private: None. Rose Shape Silver Kiddush Cup by None $285.",
+    "url": "https://theaestheticsense.com/product/rose-shape-silver-kiddush-cup-leaves-design/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 285.0,
+    "price_raw": "$285",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-04T21:38:47.185278+00:00"
   }
 ]
