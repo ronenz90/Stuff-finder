@@ -340,5 +340,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-05T03:37:14.300512+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Sold at Auction: 925 SILVER KIDDUSH CUP MADE BY \"ACHSAF\"",
+    "snippet": "",
+    "url": "https://www.invaluable.com/auction-lot/925-silver-kiddush-cup-made-by-achsaf-157-c-2ae4cff89c",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-05T21:36:12.692164+00:00"
   }
 ]
