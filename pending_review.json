@@ -646,5 +646,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-07T07:44:25.223052+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kiddish Cups Super Affordable Sale - Godinger Glasses",
+    "snippet": "Gold Rim Pleat Crystal Kiddush Set. $19.89. Sale!Gold Stripe Kiddush Set. $55.00 Original price was: $55.00.$38.99Current price is: $38.99. Sale! Grape Hammered Kiddush Cup. Quick View.",
+    "url": "https://www.godingerglasses.com/product-category/judaica/kiddish-cups/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": 19.89,
+    "price_raw": "$19.89",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-07T11:09:49.187439+00:00"
   }
 ]
