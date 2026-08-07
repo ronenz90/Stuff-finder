@@ -664,5 +664,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-07T11:09:49.187439+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kiddush sets pure silver | ר.שטוב - Stub",
+    "snippet": "Kiddush cups and a matching plate in a huge selection of models and designs, all made of high-quality 925 pure silver by hand, personal engraving can be added, lifetime warranty (subject to regulations) including gift packaging and free fast delivery.",
+    "url": "https://stubadi.com/en/סט-קידוש-38/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-07T18:05:03.447238+00:00"
   }
 ]
