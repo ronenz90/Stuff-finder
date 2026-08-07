@@ -610,5 +610,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-07T04:06:34.029046+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Yair Emanuel Aluminum Kiddush Fountain with Goblet, 8 Cups & Tray...",
+    "snippet": "Silver Plated Kiddush Fountain with 8 Small Cups - Citadel of David Design.Agayof Anodized Aluminium Wine Fountain 8 Cups - Grey.",
+    "url": "https://www.ajudaica.com/Yair-Emanuel-Aluminum-Kiddush-Fountain-with-Goblet-8-Cups-Tray-Silver/item21321",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-07T07:44:21.398389+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Amazon.com: Spode Judaica Kiddush Cup, 6 oz | Porcelain, 6\", Blue...",
+    "snippet": "About this item. Elegant Judaica Design: Inspired by 1880s Judaic manuscripts, this Kiddush cup showcases stylized flowers and vines woven into a Star of David motif in traditional blue and white.",
+    "url": "https://www.amazon.com/Spode-1869303-Judaica-Kiddush-Cup/dp/B0000XO3WI",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-07T07:44:25.223052+00:00"
   }
 ]
