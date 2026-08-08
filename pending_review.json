@@ -106,5 +106,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-08T20:23:37.466727+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kiddush - Halachipedia",
+    "snippet": "July 6, 2026 - One who hears kiddush must understand the words of the one making the blessing.[40] Some authorities say that one may not use a plastic or paper cup for kiddush.",
+    "url": "https://halachipedia.com/index.php?title=Kiddush",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-08T21:48:16.741822+00:00"
   }
 ]
