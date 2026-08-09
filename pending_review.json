@@ -214,5 +214,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-09T02:31:51.604960+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kiddush - Wikipedia",
+    "snippet": "After the person reciting the kiddush drinks from the wine, the rest of it is passed around the table or poured out into small cups for the other participants. Alternatively, wine is poured for each of the participants before kiddush.",
+    "url": "https://en.wikipedia.org/wiki/Kiddush",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-09T09:05:32.346301+00:00"
   }
 ]
