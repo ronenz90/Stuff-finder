@@ -502,5 +502,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-11T04:42:38.712715+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "This Jewish museum is lending Judaica across America",
+    "snippet": "At the Toledo Museum of Art, curator Robert Schindler said there was “exactly zero Judaica” there until November 2025, when the museum purchased a rare 12th-century Afghan kiddush cup for $4 million — a record price for Judaica.",
+    "url": "https://forward.com/culture/843965/jewish-museum-loans-jewish-art-museums/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 4.0,
+    "price_raw": "$4",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-11T10:16:07.149207+00:00"
   }
 ]
