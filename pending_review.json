@@ -484,5 +484,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-10T17:15:02.771872+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Eight Small Kiddush Cups and Matching Tray... | aJudaica.com",
+    "snippet": "Nickel Plated Kiddush Cup and Matching Plate - Jerusalem Design.Silver Plated Six Small Kiddush Cups Set - Citadel of David Design.",
+    "url": "https://www.ajudaica.com/Eight-Small-Kiddush-Cups-and-Matching-Tray-Jerusalem-Design/item26312",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-11T04:42:38.712715+00:00"
   }
 ]
