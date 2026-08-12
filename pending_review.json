@@ -610,5 +610,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-11T15:20:51.747188+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביעים לקידוש בסיטונאות - כוסות קידוש מעוצבות מהודרות - אבי מתנות",
+    "snippet": "גביעים לקידוש מהודרים בסיטונאות כוסות קידוש גביעי יין מעוצבים גביע קריסטל, זכוכית, נירוסטה או פורצלן גביע חזון איש מגוון חומרים ועיצובים איכות מעולה במחירים משתלמים - הזמינו עכשיו.",
+    "url": "https://avigifts.co.il/product-category/שבת-ויודאיקה/גביעים-לקידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-12T10:29:23.219776+00:00"
   }
 ]
