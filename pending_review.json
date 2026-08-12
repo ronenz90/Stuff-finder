@@ -1132,5 +1132,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-12T17:15:38.058878+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Chabad Items",
+    "snippet": "Crystal, Ceramic Kiddush Cups.Polymer Kiddush Cups. Wine Dividers & Accessories.",
+    "url": "https://www.israel-judaica.com/index.php?option=com_art&view=category&code=1202&Itemid=986&lang=en",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-12T22:05:41.638648+00:00"
   }
 ]
