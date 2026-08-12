@@ -1096,5 +1096,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-12T13:54:37.230972+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביע קידוש ציפוי כסף טהור 925 מהודר ותחתית - קודש נט כל מה יהודים צריכים",
+    "snippet": "גביע קידוש מהודר ציפוי כסף טהור 925 עם רגל ותחתית מידות המוצר חומר: מתכת משקל: 0.15פאונד / 0.37 ק״ג מתאים למתנה לחתן",
+    "url": "https://kodeshnet.co.il/product/גביע-קידוש-ציפוי-כסף-טהור-925-מהודר-ותחתי/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-12T17:15:35.706417+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Silver Iraq - 29 For Sale on 1stDibs",
+    "snippet": "Very rare small Judaic cup from medieval period used for the Kiddush ceremony and also probably for circumcision. This chiseled bronze cup is decorated on its belt, with Hebrew chara...",
+    "url": "https://www.1stdibs.com/buy/silver-iraq/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-12T17:15:38.058878+00:00"
   }
 ]
