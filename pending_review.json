@@ -1402,5 +1402,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-13T12:04:47.084247+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kiddush Cups | Homemore",
+    "snippet": "Kiddush Cups. Menorahs And Chanukah Accessories.",
+    "url": "https://www.nbhomemore.com/kiddush-cups",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-13T13:51:41.395403+00:00"
   }
 ]
