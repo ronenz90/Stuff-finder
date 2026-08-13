@@ -1420,5 +1420,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-13T13:51:41.395403+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Russian Silver Kiddush Cup Beaker - COACHINGACADEMY.IN",
+    "snippet": "var SKU = '0099-4382'; Russian 84 Silver Kiddush Cup / Beaker, Ca 1900, Judaica. The cup is engraved with a dedication in Yiddish.Marked on bottom with Russian silver marks (84 standard).",
+    "url": "https://www.coachingacademy.in/product/5438715/russian-silver-kiddush-cup-beaker",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-13T19:29:25.447164+00:00"
   }
 ]
