@@ -1942,5 +1942,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-14T17:14:43.675511+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Amazon.com: Ayuni Gifts of the World Kiddush Cup Wine Goblet...",
+    "snippet": "About this item. This is a beautiful Nickel Plate on Brass Wine Goblet Kiddush Cup with a Magen David (Jewish Star) Design engraved on it. The cup itself stands on a slender stem",
+    "url": "https://www.amazon.com/Ayuni-Gifts-World-Kiddush-Surround/dp/B0DHLTGY6V",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-14T20:48:13.099249+00:00"
   }
 ]
