@@ -1906,5 +1906,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-14T10:21:55.522361+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Blown Glass & Sterling Silver Kiddush Cup – Holyland Marketplace",
+    "snippet": "Take your Shabbat and holiday meals to the next level with this magnificent and elegant Kiddush cup. Made from blown glass, this cup boasts a variegated white design and an elegant 925 silver-plated stem.",
+    "url": "https://holylandmarketplace.com/products/blown-glass-sterling-silver-kiddush-cup",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-14T17:14:41.491229+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Amazon.com: Judaica by Hatice .900 Silver Kiddush Cup Gold...",
+    "snippet": "Type: Kiddush Cup, Brand: Hatice. Maker: Hatice, Pattern: Judaica. Composition: .900 Silver, Featured Refinements: Kiddush Cup. Age: Post-1940.Wonderful Hatice .900 silver Judaica Kiddush Cup with grapes and vines and gold washed interior, circa 1960.",
+    "url": "https://www.amazon.com/Judaica-Hatice-Silver-Kiddush-Interior/dp/B09QG4CFGS",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-14T17:14:43.675511+00:00"
   }
 ]
