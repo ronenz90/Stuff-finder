@@ -1582,5 +1582,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-14T02:48:32.241475+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kiddush cups pure silver | ר.שטוב - Stub",
+    "snippet": "Kiddush cups made of pure 925 silver, handmade, made in Israel in a variety of designs and sizes, you can add personal engraving, lifetime warranty (subject to regulations) including gift...",
+    "url": "https://stubadi.com/en/כוסות-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-14T08:39:23.689274+00:00"
   }
 ]
