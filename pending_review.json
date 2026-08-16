@@ -2158,5 +2158,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-16T09:44:46.918867+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביעי קידוש - יודאיקה שילוב של מסורת, אומנות ומשמעות רוחנית",
+    "snippet": "גביעי קידוש מבצע! גביע קידוש זהב פיליגרן מלא משובץ 8.5 ס\"מ תכולה 120 מ\"ל 150.00 ₪139.00 ₪ הוספה לסל מבצע! גביע קידוש ניקל \"גל ירושלים\" ללא רגל 9 ס\"מ עם 130.00 ₪119.00 ₪ הוספה לסל",
+    "url": "https://yudaika.co.il/product-category/גביעי-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 50.85,
+    "price_raw": "150.00 ₪",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-16T16:45:04.101244+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביעי קידוש - hoshenshop.com",
+    "snippet": "גביעי קידוש מעוצבים ויחודיים מסוגים שונים. כוסות קידוש מכסף, גביע קידוש זכוכית, כוס קידוש קריסטל, גביע קידוש קרמיקה, גביע קידוש לילדים ועוד",
+    "url": "https://hoshenshop.com/product-category/יודאיקה/שבת/גביעי-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-16T16:45:07.664256+00:00"
   }
 ]
