@@ -124,5 +124,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-19T04:54:20.355729+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Nekteck Shiatsu Foot Massager Machine with Heat, White/Black",
+    "snippet": "מחיר: 50.00 USD · מצב: Open box · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/366616573563?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item555c0cf67b:g:YkUAAeSw-9Fqhfwd",
+    "source": "ebay",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 50.0,
+    "price_raw": "50.00 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-19T23:41:25.197059+00:00"
+  },
+  {
+    "product_id": "toddler-animal-shaped-spout-sippy-cup--light-blue-lid-1786218359",
+    "product_name": "כוס שתייה לפעוטות עם מכסה בעיצוב חיה (כלב) בצבע תכלת או כתום",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Baby 2-in-1 Spout Straw Sippy Training Cup w/ Auto Flip-Lid for Infants Toddlers",
+    "snippet": "מחיר: 17.99 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/127539687838?_skw=Toddler+Animal-Shaped+Spout+Sippy+Cup%2C+Light+Blue+or+orange+Lid+for+sale&hash=item1db1f5319e:g:ka0AAeSwgIdpL7FO&amdata=enc%3AAQALAAABMACCtXRWQnOEpyOqnQQ8KGZoRGTlKGO1qSFZ3CnaBbns5OIpeii6Rmy4AK7NsM%2BFf7mCzetne1fM4CHt86peSciJaT%2B2JVpf7cWINmCpyEjgmXGgQvRpt3CdP%2B4HdWQSjLIR8kDlICDgExMoCxv2H7pHnUhqcTzFxeQIlJ0o8AZYPmXiHX3nJUDc%2F6wJqhwUmmR1ogp9Ub9T76roXLdLh%2BdEwzYcPNaHm56D2or3e%2Fe7NaHQhKUhmgdRRgpWPOqv%2BERPp8Hf6OTB1i8XnhM0HSG7J2b4f00HpWuYYdhfcGrm6boy5xIVnWP8oyBkTtq6gRRjSb9eTalsqMag62wXGj5pONScvDM%2BVMqWOVsgkExi7r9jAPR0CMEFo7%2Bqx4scFWG%2B9S3i%2F8gV6%2Fu54fYHmBI%3D",
+    "source": "ebay",
+    "score": 50,
+    "is_sale_page": true,
+    "price_usd": 17.99,
+    "price_raw": "17.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-19T23:42:27.110787+00:00"
   }
 ]
