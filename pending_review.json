@@ -106,5 +106,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-19T01:56:58.979853+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביע קידוש",
+    "snippet": "גביע קידוש · מצת חשמלי · תחתית לסיר · מחזיק גפרורים · מעמד ואביזרים לבקבוק יין · מפות שולחן וראנרים · מגבת לנטילת ידיים · מעמד ברכונים וזמירות שבת ·",
+    "url": "https://www.shops.hidabroot.org/190257-גביע-קידוש",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-19T04:54:20.355729+00:00"
   }
 ]
