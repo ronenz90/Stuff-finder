@@ -304,5 +304,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-20T21:48:34.554213+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביע קידוש - גביעי קידוש קריסטל, בטון וכסף - יברכך",
+    "snippet": "גביע קידוש לשבת ולחג: גביעי קריסטל מט ומראה, בטון פולימרי מודרני ודגמים קלאסיים, חלקם עם מגש תואם - כלי קידוש שמכבד את השולחן.",
+    "url": "https://yevareheha.co.il/product-category/מוצרי-שבת/גביע-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-21T11:44:55.507163+00:00"
   }
 ]
