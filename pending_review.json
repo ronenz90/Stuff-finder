@@ -556,5 +556,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-21T19:42:08.860870+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "בידספיריט | שמאי מכירה פומבית 68 - תכולה של אספן ניירת וצילומים כלי כסף ...",
+    "snippet": "הצעה מובילה: $100 צפיה בפריט פריט 67: גביע קידוש כסף 800 וינאי עתיק חתום האוסטרו-הונגריה ויצרן ET סוף המאה ה19 תחילת המאה ה20 משקל 63 גרם גובה 7 ס\"מ קוטר 5.5 ס\"מ יש פגעי זמן קלים מחיר פתיחה: $ 110",
+    "url": "https://il.bidspirit.com/ui/catalog/auction/shamay/79412/4?lang=he",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": 100.0,
+    "price_raw": "$100",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-22T03:10:04.203022+00:00"
   }
 ]
