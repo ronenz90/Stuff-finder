@@ -358,5 +358,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-25T16:04:18.181770+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "The Cup of Joy - sothebys.com",
+    "snippet": "Oct 29, 2025 · The Cup of Joy The single most widely used domestic object of Judaica, used to sanctify the Shabbat and Jewish holidays, Kiddush cups are customarily produced as a luxury object, made from silver or other fine materials. Some are beautifully decorated or engraved and passed down through families, while others are simpler.",
+    "url": "https://www.sothebys.com/en/digital-catalogues/the-cup-of-joy",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-25T16:58:40.529702+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Sterling Kiddush Cup & English Basket 11.32 Ozt Auction",
+    "snippet": "Jul 15, 2026 · Group of two sterling silver vessels. Including: One Bezalel School-style Israeli sterling silver kiddush cup with gilt-wash interior and cannetille decoration. Marked \"Israel\" and \"Sterling\" along the underside. Peter & Ann Bateman, England. One English sterling handled basket with engraved details. Marked along the base for with lion passant indicating sterling, crowned leopard London assay ...",
+    "url": "https://www.liveauctioneers.com/item/235312857_sterling-kiddush-cup-and-english-basket-1132-ozt-st-paul-mn",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-25T16:58:42.652062+00:00"
   }
 ]
