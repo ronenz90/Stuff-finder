@@ -394,5 +394,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-25T16:58:42.652062+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Pro Electric Shiatsu Foot Massager with Heat, Size 12.5",
+    "snippet": "מחיר: 355.36 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/398323897372?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item5cbdf4541c:g:klMAAeSwCjpqjeHl&amdata=enc%3AAQALAAABMACCtXRWQnOEpyOqnQQ8KGYjtk7tQhJAHXPX8Q5CzORa1ss563WVaswnC7fZiVDx%2B7LCEprNlyXyU4lGPSD0DYoJXcWfR4f4aWNr1md8FCvybY0RVPnKi%2Fu%2BH61laGA%2BncAeyPWlnY1R2n5%2BwE660teUtLzXV4DdG4%2BWx47kFdYFtqwkdQEVW%2F6ejDjKcUaW5OjVuNBlw3OOWDoKMVn9uIvhFlenfULNdpURaPbqCxPHEzi3goksXhwOd2t5tcI3sacOZWkMs781VIfmHX4FS7hTi4tx2ikWQnfL5QqzQWAyoCGSeTvnPEnq0OQB4JeV5FHMmlyB46MBgj7XsxdOHe4oFgqbmUnGZlq%2FtiSBooMAt6ZbOvbmywH0HJXQt02NE7%2FHJuWf4rLvqDL3OS443R0%3D",
+    "source": "ebay",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 355.36,
+    "price_raw": "355.36 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-25T19:01:24.648356+00:00"
   }
 ]
