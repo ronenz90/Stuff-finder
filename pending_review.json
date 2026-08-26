@@ -484,5 +484,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-25T20:50:03.457194+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Electric Shiatsu Foot Massager Machine with Heat and Remote - Red",
+    "snippet": "מחיר: 15.00 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/168639581628?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item2743b3cdbc:g:DCMAAeSwBD9qjkWG",
+    "source": "ebay",
+    "score": 90,
+    "is_sale_page": true,
+    "price_usd": 15.0,
+    "price_raw": "15.00 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-26T02:01:59.005913+00:00"
   }
 ]
