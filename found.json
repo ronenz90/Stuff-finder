@@ -1589,24 +1589,6 @@
       "ai_reason": "זהו מוצר למכירה של מפעיל שער כנף חשמלי עם בוכנות ליניאריות, התואם את סוג המוצר; המחיר והמשלוח לישראל אינם מוצגים.",
       "_overBudget": false,
       "_capUsd": 75
-    },
-    {
-      "product_id": "iraqi-kiddush-cup",
-      "product_name": "גביע קידוש עירקי",
-      "alert_email_key": "",
-      "alert_email": "",
-      "title": "Sterling Silver Judaica - 61 For Sale on 1stDibs",
-      "snippet": "rah Temple Jerusalem Sterling Kiddush Cups. An Iraqi Silver Shabbat Candlestick Holder, circa 1920. A set of a spectacularly beautiful Kiddush plate and cup. ...",
-      "url": "https://www.1stdibs.com/buy/sterling-silver-judaica/",
-      "source": "duckduckgo",
-      "score": 100,
-      "is_sale_page": true,
-      "price_usd": null,
-      "price_raw": null,
-      "ships_to_target": true,
-      "ship_to_label": "ישראל",
-      "notified": true,
-      "found_at": "2026-08-27T09:54:48.305553+00:00"
     }
   ],
   "last_scan": "2026-08-27T10:00:08.033186+00:00",
