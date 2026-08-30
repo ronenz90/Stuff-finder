@@ -81,7 +81,7 @@
   {
     "names": {
       "he": "מנוע שער חשמלי סולארי - בוכנה ליניארית",
-      "en": "Solar Automatic Swing Gate Opener (Linear Actuator)"
+      "en": "Solar Automatic Swing Gate Opener (Linear Actuator) 500kg"
     },
     "site_group": "all",
     "ship_to": "IL",
@@ -89,16 +89,16 @@
     "ship_to_en": "Israel",
     "keywords": [
       "solar automatic swing gate opener",
-      "linear actuator gate motor",
-      "solar powered gate opener arm",
+      "linear actuator gate motor 500kg",
+      "solar powered gate opener arm 500kg",
       "DC linear actuator swing gate",
       "electric driveway gate operator solar",
       "automatic gate motor chain link fence"
     ],
     "image": "",
-    "notes": "זהו לא פריט עתיקות אלא מוצר תעשייתי מודרני: מנוע חשמלי אוטומטי לפתיחת שער (Swing Gate Opener), המבוסס על בוכנה ליניארית (linear actuator) המחוברת בין עמוד השער לכנף השער. ניתן לראות גוף מתכתי אפור-לבן עם מכסה שחור בשני קצוות הציר, תווית מידע (specs) מודבקת על גוף המנוע, וכבל חשמלי בצנרת גמישה שחורה מוליך לקופסת בקרה/פאנל סולארי הנראה חלקית בפינה. השער עצמו עשוי מוטות ברזל בשילוב רשת חלד (chain-link), מותקן בשטח חול/מדברי פתוח - מה שמתאים לשימוש בשערי חווה, מתקן חקלאי או שער כניסה מרוחק המופעל בסולאר בשל היעדר תשתית חשמל.",
+    "notes": "זהו לא פריט עתיקות אלא מוצר תעשייתי מודרני: מנוע חשמלי אוטומטי לפתיחת שער (Swing Gate Opener), המבוסס על בוכנה ליניארית (linear actuator) המחוברת בין עמוד השער לכנף השער. ניתן לראות גוף מתכתי אפור-לבן עם מכסה שחור בשני קצוות הציר, תווית מידע (specs) מודבקת על גוף המנוע, וכבל חשמלי בצנרת גמישה שחורה מוליך לקופסת בקרה/פאנל סולארי הנראה חלקית בפינה. השער עצמו עשוי מוטות ברזל בשילוב רשת חלד (chain-link), מותקן בשטח חול/מדברי פתוח - מה שמתאים לשימוש בשערי חווה, מתקן חקלאי או שער כניסה מרוחק המופעל בסולאר בשל היעדר תשתית חשמל. נדרש לתמוך במשקל של מעל 500 קילוגרם",
     "scan_frequency": "daily",
-    "max_price": 75,
+    "max_price": 50,
     "max_price_currency": "USD",
     "alert_email": "ami8210@gmail.com",
     "active": true,
