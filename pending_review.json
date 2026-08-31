@@ -502,5 +502,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-31T14:03:33.025749+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Shiatsu Foot Massager Machine Deep Kneading Air Compression Heat Gray",
+    "snippet": "מחיר: 165.43 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/188859320000?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item2bf8e486c0:g:3RoAAeSwWkZqk15H",
+    "source": "ebay",
+    "score": 50,
+    "is_sale_page": true,
+    "price_usd": 165.43,
+    "price_raw": "165.43 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-31T20:09:56.718830+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Bob and Brad Shiatsu Foot Massager with Heat and Remote ...",
+    "snippet": "In stock 30-day returns Mar 24, 2026 · Deep Kneading Electric Feet Massager for Foot Fatigue, 15-min auto shut-off for safety. remote allows you to adjust heat and intensity instantly",
+    "url": "https://www.newegg.com/bob-and-brad-827-r-gray-foot-massager/p/0CS-01GU-00001",
+    "source": "duckduckgo",
+    "score": 80,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-31T20:09:59.388331+00:00"
   }
 ]
