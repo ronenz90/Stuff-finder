@@ -214,5 +214,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-30T21:11:45.525177+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Foot Massager with Heat, Remote Control, Shiatsu ... - Newegg",
+    "snippet": "The upgraded foot massager comes with a remote control for easy operation, eliminating the need to bend over to make adjustmentsa particularly convenient ...",
+    "url": "https://www.newegg.com/p/0X6-0FC6-000Y4",
+    "source": "duckduckgo",
+    "score": 70,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-31T05:42:04.337184+00:00"
   }
 ]
