@@ -538,5 +538,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-31T20:09:59.388331+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Auction 1 in Israel - LOT-ART",
+    "snippet": "גביע קידוש עיראקי מכסף · 41: גביע קידוש עיראקי מכסףReserve: Login · גביע קידוש וינאי, אלט וין · 42: גביע קידוש וינאי, אלט ויןReserve: Login · כוס קידוש (כוס ...",
+    "url": "https://www.lot-art.com/auctions/Auction-1/1e110abc3dc9373ee8bce51f296ce120",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-08-31T23:53:31.835354+00:00"
   }
 ]
