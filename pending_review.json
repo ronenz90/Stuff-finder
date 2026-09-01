@@ -556,5 +556,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-08-31T23:53:31.835354+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "The world's most valuable kiddush cup - The Forward",
+    "snippet": "Nov 18, 2025 · The 12th-century Kiddush cup, which sheds light on the little-known Jewish community of eastern Khorasan, went for $4 million.",
+    "url": "https://forward.com/culture/784315/sothebys-record-kiddush-afghan-toledo/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 4.0,
+    "price_raw": "$4",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-01T05:14:47.187074+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "RENPHO Foot Massager Machine with Heat [2026 Upgraded ...",
+    "snippet": "Buy RENPHO Foot Massager Machine with Heat [2026 Upgraded], Shiatsu Foot Massager for Plantar Fasciitis, Gift for Women Men Mom Dad, Exclusive Voice Control, Beige at business.walmart.com Sports & Outdoors - Walmart Business Supplies",
+    "url": "https://business.walmart.com/ip/RENPHO-Foot-Massager-Machine-Heat-2026-Upgraded-Shiatsu-Foot-Massager-Plantar-Fasciitis-Valentines-Day-Gifts-Him-Exclusive-Voice-Control-Beige/19596313453",
+    "source": "duckduckgo",
+    "score": 70,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-01T05:15:50.095615+00:00"
   }
 ]
