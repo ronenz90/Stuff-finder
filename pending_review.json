@@ -1078,5 +1078,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-09-02T16:42:08.780648+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Iraqi silver kiddush cup, First Half of the 20th Century - Pinterest",
+    "snippet": "Mar 5, 2023 · Explore this beautifully crafted vintage Iraqi silver kiddush cup from the first half of the 20th century. Perfect for adding a touch of ...",
+    "url": "https://www.pinterest.com/pin/iraqi-silver-kiddush-cup-first-half-of-the-20th-century-in-2023--337136722120280228/",
+    "source": "duckduckgo",
+    "score": 100,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-02T19:49:41.902094+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Foot & Calf Massager Shiatsu Massage Machine w/ Heat Therapy NEW IN BOX",
+    "snippet": "מחיר: 78.88 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/188876896604?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item2bf9f0b95c:g:VbMAAeSwwS5qmHXA&amdata=enc%3AAQALAAABMACCtXRWQnOEpyOqnQQ8KGYIQmtw3SsRHdsuAHDaLRDwnZgMyNHj3s34XDrelM7ZsmU6T0lEMl%2Ft0DBxdGjHGJcRNghBf366j28F24Thpp5IrzaAWFvQvgNsY0WhUn2sNassXZw97Dqp7eVcw5Dsz7qcIkcLJxDMQUOjKjV5lQiqq9X2Ic3VoGYFuwWCSv%2FAsXOQlu4DIO%2F2NuAgg3HGGDlmasXiVpKXAD8P%2BMNDabinaj5BiT7yajg23G%2FrjKPPgdCJlMm492%2FSaDn1M%2Fjq%2BAVbMWjOXue9kVXkr0Vj%2Fpn3VKFsyqv40kXtekBfSwzWX4XixksixIJOnhevsvwmFmRussUi6iQZtgWlVTlj4UwEgWCcYnz2I17Qnan3I2NXPs9goTcGz5cDas7jnEzOkWk%3D",
+    "source": "ebay",
+    "score": 50,
+    "is_sale_page": true,
+    "price_usd": 78.88,
+    "price_raw": "78.88 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-02T19:50:47.960111+00:00"
   }
 ]
