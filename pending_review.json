@@ -790,5 +790,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-09-21T19:35:16.413569+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "COMFIER Shiatsu Foot Massager with Heat Kneading Back Massager Machine",
+    "snippet": "מחיר: 84.99 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/227533120741?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item34fa07e4e5:g:v9MAAeSwSyBqsbkK",
+    "source": "ebay",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 84.99,
+    "price_raw": "84.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-21T23:21:25.321384+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Shiatsu Foot Massager with Heat Deep Kneading Massage Machine Relief",
+    "snippet": "מחיר: 85.99 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/227533061661?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item34fa06fe1d:g:dPEAAeSwMyBqsacQ",
+    "source": "ebay",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 85.99,
+    "price_raw": "85.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-21T23:21:25.321584+00:00"
   }
 ]
