@@ -916,5 +916,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-09-22T22:14:44.155008+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Bidspirit auctions | Kedem Auction 107: - Rare and Important Items",
+    "snippet": "3,000 VIEW Sold for: $3,400 LOT 6: Sabbath Kiddush Cup - Augsburg, 18th Century. Kiddush cup, made by ... Start price: $ 3,000",
+    "url": "https://judaica.bidspirit.com/ui/catalog/auction/kedem/72234?lang=en",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": 3400.0,
+    "price_raw": "$3,400",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-23T23:45:12.547682+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Our 10 Best Shiatsu Foot Massager in the US - September 2026 ...",
+    "snippet": "23 hours ago · Medcursor Foot Massager with Heat - Shiatsu Feet Massage Machine Delivers Relief for Tired Muscles & Plantar, Deep Kneading Therapy, Multi-Level Settings for Home, Office Use, Size up to 13\"",
+    "url": "https://www.bestproductsreviews.com/shiatsu-foot-massager",
+    "source": "duckduckgo",
+    "score": 60,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-23T23:46:35.624695+00:00"
   }
 ]
