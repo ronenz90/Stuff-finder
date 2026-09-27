@@ -196,5 +196,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-09-26T07:48:14.639572+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Amazon.com: Shiatsu Foot Massager with Heat and Remote ...",
+    "snippet": "Amazon.com: Shiatsu Foot Massager with Heat and Remote Control for Plantar Fasciitis | Deep Kneading, 4 Modes 5 Levels, Auto Shut-Off, Fits to Size 13, Gifts for Women Men Mom Dad (Purple) : Health & Household",
+    "url": "https://www.amazon.com/clp/B0H2J4GVBY",
+    "source": "duckduckgo",
+    "score": 80,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-27T08:16:52.896359+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "IBREO, Foot Massager, with Heat, Deep Kneading, Remote ...",
+    "snippet": "Experience soothing relief with the IBREO Foot 3 Mini Massager featuring deep kneading, 360° air compression, adjustable heat, remote control, ideal for sore feet.",
+    "url": "https://www.walmart.com/ip/ibreo-Shiatsu-Foot-Massager-Machine-Heat-Deep-Kneading-Air-Compression-Auto-Timer-Remote-Control-Plantar-Fasciitis-Pain-Relief-Relaxation-Home-Office/17578715246",
+    "source": "duckduckgo",
+    "score": 60,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-27T08:16:55.382822+00:00"
   }
 ]
