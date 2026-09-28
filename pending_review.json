@@ -304,5 +304,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-09-27T18:28:00.122067+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Italian Kiddush Cup - 11 For Sale on 1stDibs",
+    "snippet": "Shop our italian kiddush cup selection from top sellers and makers around the world. Global shipping available.",
+    "url": "https://www.1stdibs.com/buy/italian-kiddush-cup/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-28T06:58:59.787519+00:00"
   }
 ]
