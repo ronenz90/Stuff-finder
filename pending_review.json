@@ -430,5 +430,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-09-29T08:37:13.236308+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Amazon.com: FSA Shiatsu Foot Massager with Heat, HSA Eligible ...",
+    "snippet": "Howdy Howdy Shiatsu Foot Massager with Cooling & Heating for Plantar Fasciitis | Fits up to Size 13, Remote Control, Targeted Heel Cold Therapy, Deep Kneading and Compression for Neuropathy",
+    "url": "https://www.amazon.com/clp/B0H25DP9FR",
+    "source": "duckduckgo",
+    "score": 80,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-29T15:57:44.973369+00:00"
+  },
+  {
+    "product_id": "solar-automatic-swing-gate-opener--linear-actuator-1787318261",
+    "product_name": "מנוע שער חשמלי סולארי - בוכנה ליניארית",
+    "alert_email_key": "",
+    "alert_email": "ami8210@gmail.com",
+    "title": "Ghost Controls TDS2XP Solar Dual Swing Gate Opener Kit, Heavy ...",
+    "snippet": "Solar Dual Gate Opener: Designed for dual swing gates up to 900 pounds or up to 12 feet in length (this kit max. gate opening is 24 feet). 10 Watt Solar Panel Included. This automatic solar gate opener is perfect for all types of residential single driveway gates including decorative, chain link, tube, plantation and wood. (not recommended for solid panel gates). You can add up to 30 watts of ...",
+    "url": "https://business.walmart.com/ip/Ghost-Controls-TDS2XP-Heavy-Duty-Solar-Dual-Automatic-Gate-Opener-Kit-for-Swing-Gates-Up-to-20-Feet/656130388",
+    "source": "duckduckgo",
+    "score": 62,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-29T16:01:15.689181+00:00"
   }
 ]
