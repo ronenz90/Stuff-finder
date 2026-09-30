@@ -520,5 +520,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-09-29T20:52:44.004405+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Belmint Shiatsu Foot Massager Machine with Heat Air Compression Heated",
+    "snippet": "מחיר: 18.99 USD · מצב: Used · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/307205785234?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item4786e44692:g:R5kAAeSwIVlqvDmB",
+    "source": "ebay",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 18.99,
+    "price_raw": "18.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-09-30T00:32:18.034704+00:00"
   }
 ]
