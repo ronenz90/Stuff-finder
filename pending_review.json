@@ -1078,5 +1078,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-01T13:27:53.653820+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביעי קידוש מתכת - יצאת צדיק",
+    "snippet": "גביע קידוש מהודר ניקל עם זהב כולל תחתית 9.5 ס\"מ תכולה 100 מ\"ל | Nickel Kiddush Cup 9.5 cm Contain 100ml // 3.4oz - Gold ₪177 הוספה לסל גביע קידוש נהרות ללא רגל עם תחתית תכולה 120 מ\"ל | Nickel Kiddush Cup \"the Bible Rivers\" Contain 120ml // 4.06oz",
+    "url": "https://ytzadik.co.il/product-category/12-גביע-קידוש/גביעי-קידוש-מתכת/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 57.54,
+    "price_raw": "₪177",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-01T19:35:10.574661+00:00"
   }
 ]
