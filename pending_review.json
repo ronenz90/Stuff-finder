@@ -1096,5 +1096,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-01T19:35:10.574661+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Antique Russian Sterling Silver Kiddush Cup Ivan Yefimovich ...",
+    "snippet": "Aug 29, 2026 · Antique Russian Sterling Silver Kiddush Cup decorated with incised geometric design, assay mark of master Ivan Yefimovich Konstantinov, Moscow, 1877. 24{ellipsis}",
+    "url": "https://www.liveauctioneers.com/item/237506659_antique-russian-sterling-silver-kiddush-cup-ivan-yefimovich-konstantinov-moscow-montreal-quebec/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-01T23:55:37.014205+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Electric Foot Massage Machine with Heat Shiatsu Feet & Calf ...",
+    "snippet": "In stock Rating 4.0 (1) Electric Foot Massage Machine with Heat Shiatsu Feet & Calf Massager with Remote Control … $146.84 54% off US $320.94 Color. Free returns within 90 days",
+    "url": "https://www.aliexpress.com/item/1005010037927985.html",
+    "source": "duckduckgo",
+    "score": 90,
+    "is_sale_page": false,
+    "price_usd": 146.84,
+    "price_raw": "$146.84",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-01T23:56:51.227347+00:00"
   }
 ]
