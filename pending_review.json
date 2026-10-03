@@ -1492,5 +1492,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-03T02:05:33.734769+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "2 Sterling Silver Kiddush Cups Both Vintage - LiveAuctioneers",
+    "snippet": "Each cup is 4 1/2\" in height and the total weight is 3.4 ozt.",
+    "url": "https://www.liveauctioneers.com/price-result/2-sterling-silver-kiddush-cups-both-vintage/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-03T08:12:00.284987+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Snailax Foot Massager with Heat, Shiatsu Foot Massager ...",
+    "snippet": "Snailax Shiatsu foot and calf massager with heat offers deep tissue massage using kneading, rolling, compression, and heating modes. Adjustable for foot, leg, calf, and ankle Free Shipping!",
+    "url": "https://www.walmart.com/ip/Snailax-Shiatsu-Foot-and-Calf-Massager-Machine-with-Heat-Kneading-for-Pain-Relief-Gift/10527354317",
+    "source": "duckduckgo",
+    "score": 60,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-03T08:13:20.949835+00:00"
   }
 ]
