@@ -52,5 +52,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-04T21:33:19.789245+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "​KNQZE Shiatsu Foot Massager Machine with Heat & Compression Deep Kneading New",
+    "snippet": "מחיר: 74.99 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/189042858610?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item2c03d51a72:g:1~YAAeSwEhdqwusq",
+    "source": "ebay",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 74.99,
+    "price_raw": "74.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-05T01:03:09.488141+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Amazon.com: TISSCARE Shiatsu Foot Massager with Heat: FSA ...",
+    "snippet": "Shiatsu deep kneading MIKO MIKO Shiatsu Foot Massager with Heat and Air Compression | 5 pressure levels, 3 modes, rolling & wireless remote; for plantar fasciitis and neuropathy; fits men's size 12 100+ bought in past week Click to see price",
+    "url": "https://www.amazon.com/clp/B08R1KJNQG",
+    "source": "duckduckgo",
+    "score": 70,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-05T01:03:12.916326+00:00"
   }
 ]
