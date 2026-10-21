@@ -88,5 +88,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-21T07:44:50.547561+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Foot Massager with Heat - Shiatsu Feet Massage Machine Delivers Relief for Tired",
+    "snippet": "מחיר: 86.19 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/377561203869?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item57e866c49d:g:KmQAAeSwxXlqyw5w&amdata=enc%3AAQALAAABMOf5zIIojhOf%2BkQK%2Bxzjn7nRzJnDu%2FEY6s1yYPMse9mv8CkdpxTxXJWrjojaUcDP949irah7yDjpd9o41j%2FgtCPmHD9dbykGc4UvePBkBhV1fPLbPRTBQwFH9moQLaW%2FcixcNhn67wgmyudr58zMzaW4wJOKmH7BnlGTIr2RKIBbyLltgvhQv1TVmxvp5g7MMs8N54XYGIowwqY9kLxnmQiZp1SX7osSj92AwUbu6kDcZ0X6yVs49J8%2B9Ukn%2Fz3HXokpJ8uBkR7wGO%2FDxXOYm8AjjjhOFti8YZndHP%2BzaGyRFsTQBBWhfKn6Hwzq%2BFIRaLU4QgN7CojJYHaYSGlH8C9qAmIKaeeiYt42zaNprrriLqkq6jVuZpMqpk3WHmyymQ%2B0dTlIWuHoBSQuz2jmC48%3D",
+    "source": "ebay",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 86.19,
+    "price_raw": "86.19 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-21T13:52:38.459471+00:00"
+  },
+  {
+    "product_id": "solar-automatic-swing-gate-opener--linear-actuator-1787318261",
+    "product_name": "מנוע שער חשמלי סולארי - בוכנה ליניארית",
+    "alert_email_key": "",
+    "alert_email": "ami8210@gmail.com",
+    "title": "JUJIANG C026 Solar Gate Opener with Batteries ... - Amazon",
+    "snippet": "【Universal Application】: Tailored for versatility, this automatic gate opener solar powered is compatible with a wide array of medium-duty dual swing gates constructed from steel, wood, vinyl, and designed in panel or tube styles.",
+    "url": "https://www.amazon.com/JUJIANG-Batteries-Automatic-Complete-Electric/dp/B0CLLH9X6M",
+    "source": "duckduckgo",
+    "score": 62,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-21T13:55:40.778899+00:00"
   }
 ]
