@@ -124,5 +124,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-21T13:55:40.778899+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "ארכיון גביעי קידוש - Nvl",
+    "snippet": "סט קידוש הכולל כוס ותחתית תואמת מבית חושן ₪119 ₪95 הוספה לסל גביע קידוש+תחתית קריסטל צבע זהב h15D11 ₪131 ₪105 הוספה לסל כוס קידוש ותחתית קריסטל ציפוי כסף גובה 15.5 קוטר 11ס\"מ",
+    "url": "https://nvl.co.il/product-category/שבתות-וחגים/גביעי-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 38.5,
+    "price_raw": "₪119 ₪",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-21T18:41:58.062641+00:00"
   }
 ]
