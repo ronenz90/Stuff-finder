@@ -592,5 +592,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-24T18:13:32.940671+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Modern Kiddush Cups - 24 For Sale on 1stDibs",
+    "snippet": "Shop our modern kiddush cups selection from top sellers and makers around the world. Global shipping available.",
+    "url": "https://www.1stdibs.com/buy/modern-kiddush-cups/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-24T20:55:11.276602+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Medcursor Electric Shiatsu Foot Massager Machine with Heat",
+    "snippet": "מחיר: 50.00 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/800834172963?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=itemba756fb823:g:30EAAeSwIr1q3Q-c",
+    "source": "ebay",
+    "score": 70,
+    "is_sale_page": true,
+    "price_usd": 50.0,
+    "price_raw": "50.00 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-24T20:56:16.227558+00:00"
   }
 ]
