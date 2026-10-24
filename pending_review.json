@@ -538,5 +538,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-24T11:10:00.287684+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Yair Emanuel Kiddush Cup for Shabbat Tree of Life",
+    "snippet": "מחיר: 58.99 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/287043713739?_skw=Iraqi+Kiddush+Cup+for+sale&hash=item42d5237acb:g:3uIAAeSwibJpVHZj&amdata=enc%3AAQALAAABAOf5zIIojhOf%2BkQK%2Bxzjn7nK7bfU2VJK5uaX3xTyyjPLiUnzXBUF9K1aEOeeIhXpHnts0JIpyQKW9QEoic%2BWBIYWmTxaXaF%2BCSXUMLWi%2Bl%2FOG9f%2BKtWJX8YRlkdWaUPShUTflMtGamP8s7texc55sJn%2BDR7NcBO8jZb5UwJrR2S%2FMWprUXf2%2FaAtWGlQbs4V9pbF%2BaFihTbfyoLxTDjuaPM0FeuLzo7JWUI3LB8QnzDuWeTFVJ4ISgXEvqiw7krWHcKGmcgEDcu2KzGISbf9ge%2FXpp9RZrCwmgeBuqVKspbWy%2BPB%2F3z9qTOwSE%2BfFS2h8pqq4%2Fz2Y1XIJbAIkmOo3L8%3D",
+    "source": "ebay",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 58.99,
+    "price_raw": "58.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-24T14:37:25.561393+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Shiatsu Foot Massager with Heat - Electric Kneading Machine for Pain Relief, Cir",
+    "snippet": "מחיר: 58.99 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/900037365815?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=itemd18e685037:g:occAAeSwM~Nq3Kql",
+    "source": "ebay",
+    "score": 70,
+    "is_sale_page": true,
+    "price_usd": 58.99,
+    "price_raw": "58.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-24T14:39:46.419638+00:00"
   }
 ]
