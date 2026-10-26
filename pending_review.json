@@ -754,5 +754,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-26T00:26:58.785998+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Bidspirit auctions | Kedem Auction 107: - Rare and Important Items",
+    "snippet": "3,000 VIEW Sold for: $3,400 LOT 6: Sabbath Kiddush Cup - Augsburg, 18th Century. Kiddush cup, made by ... Start price: $ 3,000",
+    "url": "https://judaica.bidspirit.com/ui/catalog/auction/kedem/72234/1?lang=en",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": 3400.0,
+    "price_raw": "$3,400",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-26T06:18:48.922284+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Bidspirit auctions | J. Greenstein & Co., Inc. FALL ESTATES: JUDAICA ...",
+    "snippet": "$ 350 VIEW LOT 4: A SILVER KIDDUSH CUP BY WETZLER. Munich, Germany, c. 1910. On a ... Leading bid: $200 VIEW",
+    "url": "https://judaica.bidspirit.com/ui/catalog/auction/jgreenstein/80334?lang=en",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": 350.0,
+    "price_raw": "$ 350",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-26T06:18:51.292951+00:00"
   }
 ]
