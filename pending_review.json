@@ -790,5 +790,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-26T06:18:51.292951+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביע קידוש מהודר מקרמיקה עם רגל ותחתית 15 ס\"מ דגם UK82182",
+    "snippet": "גביע קידוש קרמי מהודר בגובה 15 ס\"מ, עם רגל ותחתית תואמת. מעוטר באיור ירושלים ופסוק \"בורא פרי הגפן\" בזהב יוקרתי. מוסיף קדושה ויופי לשולחן השבת והחג. מתנה מושלמת המשלבת מסורת עם עיצוב מודרני.",
+    "url": "https://nazerhamishkan.co.il/product/גביע-קידוש-מהודר-מקרמיקה-עם-רגל-ותחתית-1/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-26T14:21:03.733390+00:00"
+  },
+  {
+    "product_id": "solar-automatic-swing-gate-opener--linear-actuator-1787318261",
+    "product_name": "מנוע שער חשמלי סולארי - בוכנה ליניארית",
+    "alert_email_key": "",
+    "alert_email": "ami8210@gmail.com",
+    "title": "SWG Series – Swing Gate Opener - Nice/Linear",
+    "snippet": "Industrial / commercial duty swing gate operator series, available in 1/2, 1, and 2 horsepower, various supply voltages and phases, 15 second gate opening speed.",
+    "url": "https://linear-solutions.com/product/swg-series-swing-gate-opener/",
+    "source": "duckduckgo",
+    "score": 50,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-26T14:29:05.853361+00:00"
   }
 ]
