@@ -934,5 +934,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-27T18:47:50.642681+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביע קידוש מהודר עם צלחת - קרמיקה - סופר הום",
+    "snippet": "גביע קידוש מהודר עם צלחת - קרמיקה סט קידוש עשוי קרמיקה איכותית, הכולל גביע וצלחת תואמת. מיועד לקידוש בשבתות וחגים. חומר: קרמיקה קוטר גביע: 7 ס\"מ קוטר צלחת: 12 ס\"מ צבע: לבן בשילוב כסף",
+    "url": "https://superhome.co.il/products/גביע-קידוש-מהודר-מקרמיקה-עם-צלחת",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-28T02:20:24.468997+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "6D Shiatsu Foot Massager Machine Airbag Compression Kneading ...",
+    "snippet": "Buy 6D Shiatsu Foot Massager Machine Airbag Compression Kneading with Heat Remote Control LED Display Home Foot Relax Massager at Aliexpress for . Find more , and products. Enjoy Free Shipping Worldwide! Limited Time Sale Easy Return.",
+    "url": "https://www.aliexpress.com/item/1005013291989327.html",
+    "source": "duckduckgo",
+    "score": 90,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-28T02:21:40.280370+00:00"
   }
 ]
