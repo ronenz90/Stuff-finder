@@ -1060,5 +1060,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-29T01:54:07.341307+00:00"
+  },
+  {
+    "product_id": "solar-automatic-swing-gate-opener--linear-actuator-1787318261",
+    "product_name": "מנוע שער חשמלי סולארי - בוכנה ליניארית",
+    "alert_email_key": "",
+    "alert_email": "ami8210@gmail.com",
+    "title": "LiftMaster Primary Swing Gate Opener Actuator Arm - Solar ...",
+    "snippet": "The LiftMaster LA412DC is a premium 12V DC linear actuator designed for residential single swing gate applications. It is solar-capable, making it an ideal choice for locations without access to AC power.",
+    "url": "https://simplegateopener.com/store/liftmaster-primary-swing-gate-opener-actuator-arm-la412dc.html",
+    "source": "duckduckgo",
+    "score": 75,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-29T16:15:55.502979+00:00"
   }
 ]
