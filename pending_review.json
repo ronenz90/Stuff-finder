@@ -1024,5 +1024,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-28T16:45:38.614085+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Kiddush set \"Iraqi\" pure silver 925 handmade | ר.שטוב - Stub",
+    "snippet": "Handmade Pure Silver Kiddush Set 925 - \"Iraqi\" Make every Shabbat and holiday an unforgettable moment with a work of art that is passed down from generation to generation. Bring splendor and holiness to your Shabbat table with a luxurious Kiddush set, Combining ancient Jewish art with timeless design. Each set includes a Kiddush cup and matching plate and is meticulously handcrafted by expert ...",
+    "url": "https://stubadi.com/en/סט-קידוש-עיראקי-כסף-טהור/",
+    "source": "duckduckgo",
+    "score": 100,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-29T01:51:43.981913+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Comfier, Shiatsu Foot Massager with Heat, Size 14, Black ...",
+    "snippet": "Relax tired feet with the Comfier heated foot massager for size 14, offering deep kneading, adjustable heat and compression, and an ergonomic design for comfort.",
+    "url": "https://www.walmart.com/ip/Shiatsu-Foot-Massager-with-Heat-COMFIER-Feet-Massage-Machine-for-Neuropathy-Plantar-Fasciitis-Size-14/16723866190",
+    "source": "duckduckgo",
+    "score": 60,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-29T01:54:07.341307+00:00"
   }
 ]
