@@ -1258,5 +1258,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-10-31T12:40:01.628480+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Antique Silver Kiddush Cup / Beaker 1889 - Ruby Lane",
+    "snippet": "This fine antique silver Kiddush cup / beaker has a cylindrical tapering form onto a collet style base. The surface of the silver beaker is embellished with Fine and impressive engraved decoration depicting a simplified archway revealing alternating leaf motif and city scenes.",
+    "url": "https://www.rubylane.com/item/2236771-W8096-/Antique-Silver-Kiddush-Cup-Beaker-1889",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-10-31T17:47:11.383828+00:00"
   }
 ]
