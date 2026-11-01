@@ -1294,5 +1294,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-01T07:39:21.573331+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Late 19th Century Imperial Russian Silver Kiddush Cup and ...",
+    "snippet": "Together, the cup and saucer form a harmonious ceremonial set suitable for Kiddush rituals (blessing wine), display, or collection. The geometric and floral/architectural motifs create a cohesive aesthetic, reflecting the cultural fusion of Russian Imperial silverwork and Jewish iconography.",
+    "url": "https://www.rubylane.com/item/3645427-RL-326/Late-19th-Century-Imperial-Russian-Silver",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-01T15:14:47.350949+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Electric Shiatsu Foot Massager Machine With Heat Deep Kneading Air Compression",
+    "snippet": "מחיר: 74.99 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/307259835589?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item478a1d04c5:g:RGEAAeSwUS9q5ueS&amdata=enc%3AAQALAAABMOf5zIIojhOf%2BkQK%2Bxzjn7nd5Zy5TzOTQsjxkAvanYncGEpd2WnG89kr5H2jdkSJSFt0IMBmvlja8RZPnWTFBqXt4kdDx55vVjnyioqZU%2FBtar%2BjTZ62Uqg3FOkwK8WV5JcLtKNJHSwV3q9GiOt3oHoxfkIQlhMacpeOedXkSDRZKkiesDy1T0kin50hIS372X1DghmWHZAPsg7s6KOmR3drDIR9jbaEG7Gs2oG4GaCAZuBPC0ocpakJskQFVePQaCjixNux%2Fbj747LgAnt0ZKFKkJ5s1X1M87%2BbE9JYn0LSVAsPUAyPuWPqq3u%2F4yAoo1gApl6sITURqJCgSGjW6DzJGtcQTQP4G7rPuEJeUXZGFPKGlAibsoJlBYL0Uq%2FKDN80t%2FfWpi%2BSLI0bKPAKW9k%3D",
+    "source": "ebay",
+    "score": 70,
+    "is_sale_page": true,
+    "price_usd": 74.99,
+    "price_raw": "74.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-01T15:15:49.194543+00:00"
   }
 ]
