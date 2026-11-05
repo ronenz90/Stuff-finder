@@ -38,7 +38,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: Sync before edit
         # קריטי: מסנכרן למצב העדכני *לפני* העריכה, כדי לא לעבוד על נתונים ישנים
@@ -58,10 +58,10 @@ jobs:
           ALL_SECRETS: ${{ toJSON(secrets) }}
         run: python edit_data.py
 
-      - name: Send emails if needed
-        # חייב לרוץ *לפני* ה-commit: השליחה מסמנת את המציאות כ"דווחו",
-        # והסימון הזה חייב להיכלל ב-commit — אחרת המייל יישלח שוב ושוב.
-        if: github.event.inputs.action == 'approve_ai' || github.event.inputs.action == 'resend_match'
+      - name: Send pending emails
+        # רץ תמיד (לא תלוי ב-action מהמתווך, שהיה נקודת כשל).
+        # חייב לרוץ *לפני* ה-commit: מסמן notified=True, וזה נכלל ב-commit.
+        # notify_unsent שולח רק על מציאות עם notified=False, אז אם אין — לא קורה כלום.
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
@@ -70,7 +70,13 @@ jobs:
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           ALL_SECRETS: ${{ toJSON(secrets) }}
           NOTIFY_ONLY: 'true'
-        run: pip install requests && python scanner.py || true
+        run: |
+          pip install -r requirements.txt
+          if python scanner.py; then
+            echo "✓ שלב המייל הסתיים בהצלחה"
+          else
+            echo "::warning::שלב המייל יצא עם שגיאה ($?) — ראה את הפלט למעלה"
+          fi
 
       - name: Commit
         run: |
