@@ -1582,5 +1582,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-05T06:54:44.758821+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביעים לקידוש - Breslev",
+    "snippet": "גביע קידוש נהרות ללא רגל עם תחתית ₪ 150 המחיר המקורי היה: ₪150.₪ 129 המחיר הנוכחי הוא: ₪129.",
+    "url": "https://breslev.co.il/product-category/מוצרי-דת-ויודאיקה/גביעים-לקידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 47.29,
+    "price_raw": "₪ 150",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-05T15:31:30.370989+00:00"
   }
 ]
