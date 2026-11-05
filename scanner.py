@@ -28,7 +28,11 @@ import requests
 try:
     from ddgs import DDGS
 except ImportError:
-    from duckduckgo_search import DDGS  # fallback לשם הישן של החבילה
+    try:
+        from duckduckgo_search import DDGS  # fallback לשם הישן של החבילה
+    except ImportError:
+        # במצב NOTIFY_ONLY (שליחת מייל בלבד) לא צריך חיפוש — לא נכשלים על היעדר החבילה.
+        DDGS = None
 
 # ---------------------------------------------------------------------------
 # הגדרות
@@ -186,6 +190,8 @@ def build_queries(product: dict) -> list:
 def search_ddg(query: str) -> list:
     """חיפוש חינמי ב-DuckDuckGo (ללא מפתח). תמיד פעיל כגיבוי."""
     results = []
+    if DDGS is None:
+        return results  # חבילת החיפוש לא מותקנת (מצב מייל בלבד) — אין חיפוש
     try:
         with DDGS() as ddgs:
             for r in ddgs.text(query, max_results=RESULTS_PER_QUERY):
