@@ -286,5 +286,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-07T10:18:40.577907+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "kiddush cup",
+    "snippet": "מחיר: 120.00 USD · מצב: Used · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/257589379335?_skw=Iraqi+Kiddush+Cup+for+sale&hash=item3bf9860107:g:MP4AAeSwH5NqPyYm&amdata=enc%3AAQALAAABAOf5zIIojhOf%2BkQK%2Bxzjn7nFE9ENIE08jFsdxAjqa8JM8HJnpSq3D4Vx9eqHAo8WJ%2FwodsWXuYsj7TR9Ek4hPc9xLYO7itnnYgjb1lJlrSTeKrkdKFrrPdJNTHnAHsVC4a6mHE5FBlRHQFyTAsr%2F2YD1nJB%2FxjYasZUjlv00g9eJOBSX%2BcmAIHKj8IjRGYMYWYOLopAcojxAaH1y40DfaUfXq8V2URNgKdJXIf61ZJ8qaJb%2FtoxakmnIs22Xyhtd2NkncOyKN4v%2BYNYNSAsavmwfm7nvCZ8bwX8H4YDjtX5RHh6PbSQ6BbBhvFW8jXdokpSWmKZLCs9Z2hbwomQfOuQ%3D",
+    "source": "ebay",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 120.0,
+    "price_raw": "120.00 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-07T16:52:00.458485+00:00"
   }
 ]
