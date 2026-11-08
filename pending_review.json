@@ -376,5 +376,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-07T21:00:07.902086+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "CVS Health Shiatsu Foot Massager Machine with Heat, 8 Heads, 120V Corded",
+    "snippet": "מחיר: 23.00 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/327445022476?_skw=Electric+Shiatsu+Foot+Massager+Machine+with+Heat+and+Remote+Control+for+sale&hash=item4c3d3e870c:g:l4oAAeSwPzBq75BR",
+    "source": "ebay",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 23.0,
+    "price_raw": "23.00 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-08T00:42:20.916678+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "New Homedics Shiatsu + Air 4.0 Foot Massager with Heat 2026 ...",
+    "snippet": "New Homedics Shiatsu + Air 4.0 Foot Massager with Heat 2026 CLEARANCE. Only 8 remaining. Give us a call. New in box. Item located in both Hayward and San Jose Store. Retails for $99.99. On sale for...",
+    "url": "https://www.craigslist.org/view/d/san-jose-new-homedics-shiatsu-air-40/oG2uHTDfL6V5y8gHQQtnMY",
+    "source": "duckduckgo",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": 99.99,
+    "price_raw": "$99.99",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-08T00:42:23.199668+00:00"
   }
 ]
