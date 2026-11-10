@@ -196,5 +196,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-10T17:59:00.094822+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Yair Kiddush Cup Set Modern Aluminum with Filigree Decorations Hammered CUZ-5",
+    "snippet": "מחיר: 79.00 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/406964180149?_skw=Iraqi+Kiddush+Cup+for+sale&hash=item5ec0f494b5:g:ZIAAAeSwRHFqG3sZ&amdata=enc%3AAQALAAABAOf5zIIojhOf%2BkQK%2Bxzjn7lArU9lU3FA%2Fzo52kZlujKbunxtPFeJCrprSqIfDJORtnLZuCtZELriYCS6JSUjctSsmR5bmajtTne2rc2nURHL37edJR2DdN3mjf38gcHhNpDSaB%2FhZe2XXmtUcZiznbju7nif%2FDi%2FGPVB4tJfARz2dmogiROYmXSx%2BRt09qc9CiNLv5O25WQuVCpceKVy7Qn4lyE8TkGCs%2BrE7IDr%2Fr82Tzl%2BTUQhHqIZd2MVFwcCiGRw2BRBU544UWtwItgn%2FhhSw46pVEPEJm6TFVRf7jOPLiSRWcmzLfYNFJqlP1QJFK3%2FgTPuVZJ26vN5oM9PlT8%3D",
+    "source": "ebay",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 79.0,
+    "price_raw": "79.00 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-10T23:26:31.963899+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Foot Massager, Shiatsu Spa with Heat for Comfort and Relief ...",
+    "snippet": "Heated Massage Function: Enjoy the soothing benefits of warmth with the foot spa’s heating feature, which heats up to a cozy 40°C (104°F). The gentle heat enhances relaxation and promotes better blood flow, making each massage more effective. Plus, the automatic overheat protection ensures safe and worry-free use.",
+    "url": "https://www.walmart.com/ip/Foot-Massager-Shiatsu-Spa-with-Heat-for-Comfort-and-Relief-Gift-Black/16370218368",
+    "source": "duckduckgo",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-10T23:27:41.165272+00:00"
   }
 ]
