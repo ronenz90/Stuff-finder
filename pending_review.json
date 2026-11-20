@@ -1312,5 +1312,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-20T13:00:16.775911+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Gold Plated Kiddush Cup with Plate for Shabbat 12 cm",
+    "snippet": "מחיר: 67.73 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/147479956833?_skw=Iraqi+Kiddush+Cup+for+sale&hash=item22567d8d61:g:FwAAAOSwt6ZWVHLB&amdata=enc%3AAQALAAABAOf5zIIojhOf%2BkQK%2Bxzjn7m6%2B6JSqGsWl93KyNyD1rS5N9iu9ZOwc1SZH8f%2BySpTEP1g3jAv0CkWWVZfKk1xtxeRnvKC2keo1MjPgbvtbWEeE%2F5PMkbYYqZyAriCiHvlHs7ZZr90lAfYOh5zLtyshacPKHSNIN77eWtOJHuhdP7CPosTmAQZEnxic4WJnEkzGrTBRX4x7WC8cqSOgfD3sZZDxBM4zGs6yC83AOtIvDgzogBbdPoJQGh%2BKCKibX2m1QNr1Z0t88uf701KO6a8Dj7U%2FYXkibfM83tcAYFlKS6sioFQgN%2Bon17MkXyVGFeOJQ%2FoJCSBwCUNlvRgRIboWH4%3D",
+    "source": "ebay",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 67.73,
+    "price_raw": "67.73 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-20T21:10:13.530547+00:00"
   }
 ]
