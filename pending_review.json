@@ -1384,5 +1384,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-21T11:12:24.142881+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Amazon.com: Kiddush Cups & Sets - Kiddush Cups & Sets ...",
+    "snippet": "1-24 of 188 results for \"Kiddush Cups & Sets\" Results Check each product page for other buying options. Price and other details may vary based on product size and color.",
+    "url": "https://www.amazon.com/b?node=16961529011",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-21T18:00:48.280372+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Amazon.com: Medcursor Foot Massager with Heat Shiatsu Deep ...",
+    "snippet": "Buy Medcursor Foot Massager with Heat Shiatsu Deep Kneading, Gray, Up to US 13\" | Delivers Relief for Tired Muscles and Plantar, Adjustable Intensity, Relaxation Gifts for Men Women Mom Dad Birthday on Amazon.com FREE SHIPPING on qualified orders",
+    "url": "https://www.amazon.com/clp/B08Z8GZGZY",
+    "source": "duckduckgo",
+    "score": 60,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-21T18:01:55.586534+00:00"
   }
 ]
