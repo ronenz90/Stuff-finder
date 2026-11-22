@@ -1420,5 +1420,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-21T18:01:55.586534+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "גביע קידוש מתוצרת חברת 'הצורפים'",
+    "snippet": "גביע קידוש מתוצרת חברת 'הצורפים', עשוי כסף '800', חתום, משקל: 32.07 גרם, גובה: 10.5 ס\"מ.",
+    "url": "http://www.egozigallery.com/פריט-מספר-29351/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-22T15:23:03.597560+00:00"
   }
 ]
