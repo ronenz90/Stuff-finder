@@ -1600,5 +1600,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-24T11:00:30.749451+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Vintage 1970s Kiddush Cup Unused Hebrew Engraved Silver Tone India w/ Box",
+    "snippet": "מחיר: 39.99 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/940117630807?_skw=Iraqi+Kiddush+Cup+for+sale&hash=itemdae3609f57:g:~k8AAeSwNtNrBKNL&amdata=enc%3AAQALAAABAOf5zIIojhOf%2BkQK%2Bxzjn7lhW%2Bo%2B9FaoCjzqi1M%2Fz%2BkXgHFwaB5aAgjkjIfva%2FK8N3euzTg%2FnAruAziyEjmthh5M3tAOcZXOPEm5LmKuI4KtI%2F0PsYp1e2LFXNFJDv3Y0KX0Mjsyh6abCvbxH%2F11LSGZVk3WLtDSHPEE32L6%2Bn1J3kTj3guLghIyI%2FJ9njuT0zAWz0wcTtCn4yGCc1KNH%2FhvYoYVxRNsH3XEdp7TsNLagUi4tIcPoxGeBTx%2BJKJGwjinTZOKJoFizF8zpa498KjVb932z6HnvbF2VUHKrMfTp33ukbgLEYac23hDVIgfy0lh6Fl2WUA%2BhMOX1K28SRU%3D",
+    "source": "ebay",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 39.99,
+    "price_raw": "39.99 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-24T21:16:12.199811+00:00"
   }
 ]
