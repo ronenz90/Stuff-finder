@@ -1744,5 +1744,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-25T15:41:12.031160+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "כוס קידוש מעוצבת – גביעי קידוש מקריסטל ובטון | שירת הקודש",
+    "snippet": "היבטים הלכתיים בבחירת גביע קידוש כדי שהקידוש יהיה כשר ומהודר, ישנם כמה דגשים הלכתיים הנוגעים לכוס עצמה: שיעור רביעית: הגביע חייב להכיל לפחות \"רביעית\" (כ-86 סמ\"ק, ויש המחמירים ליותר). כל הגביעים הנמכרים אצלנו עומדים בשיעור ...",
+    "url": "https://shirathakodesh.co.il/product-category/לשבת-ולבית/כוסות-קידוש/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-26T00:25:47.632853+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "pawn pie - Buy pawn pie with free shipping | Banggood Shopping",
+    "snippet": "4.80 Electric Foot Heating Pad Washable Feet Warmer Heater Household Soft Plush Heat Blanket Foot Heat Mat Home Office Bedroom 9 Temperature Settings And 4 Time Settings 5 reviews 4.80 KM-Q7 Foot Massager with Heat Therapy Shiatsu Kneading & Vibration 3 Modes 3 Intensities for Sole Calf Relaxation Home Office Use 0 review Stand-up Recliner ...",
+    "url": "https://www.banggood.com/buy/pawn-pie.html",
+    "source": "duckduckgo",
+    "score": 70,
+    "is_sale_page": true,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": true,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-26T00:26:53.227143+00:00"
   }
 ]
