@@ -1834,5 +1834,23 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-27T12:30:53.923977+00:00"
+  },
+  {
+    "product_id": "jinkairui-electric-shiatsu-foot-massager-machine-with-heat-and-remote-control-1784712861",
+    "product_name": "מכשיר עיסוי רגליים חשמלי שיאצו עם חימום ושלט רחוק",
+    "alert_email_key": "",
+    "alert_email": "yair_z54@walla.co.il",
+    "title": "Heated Foot Massager with Remote Control - Nordstrom",
+    "snippet": "Remote Control Operation: Enjoy the convenience of a remote controller, allowing you to easily adjust settings without interrupting your relaxation. Detachable, Machine-Washable Cloth: Keep your foot massager clean and fresh with the detachable cloth cover, which is machine washable for easy maintenance.",
+    "url": "https://www.nordstrom.com/s/heated-foot-massager-with-remote-control/8047727",
+    "source": "duckduckgo",
+    "score": 70,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-27T22:01:23.720549+00:00"
   }
 ]
