@@ -1852,5 +1852,41 @@
     "ship_to_label": "ישראל",
     "notified": false,
     "found_at": "2026-11-27T22:01:23.720549+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "Stainless Steel Kiddush Cup With Plate Cup 3\" H 2.5\" Shabbat Shabbos Judaica",
+    "snippet": "מחיר: 32.00 USD · מצב: New · מודעה פעילה ב-eBay",
+    "url": "https://www.ebay.com/itm/117546241831?_skw=Iraqi+Kiddush+Cup+for+sale&hash=item1b5e4d4f27:g:zMUAAeSwDDRrCg61&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7lanQn%2FJnNw39gphuTzGIgEfdk73D7%2FvQZPsp3ARzIcBl9%2FNd2IpQAh6vjSHzJo0RZ2rtdbqEX5nVkglYjrqa%2BKew%2BDxvg3xHMm81R%2BHKuhbilxYh1WGZwJ9j0mz7cZTCfvMhBKhe8sCZFQ4m9CTVNHTO2matX5D%2B%2Fy9OnaJdBK%2BOGAX8AMh6PM9zvytarQHkAeiZb8uNrIvp9aqJabg5R9dXxgFLo6nAs31tRcr4q82KZUD8G0gGSv4o4DMYMmJuRYSY8Lngi3jowu0iVbx3L3aAh4AiDUprtIxfRPwOF0Sg%3D%3D",
+    "source": "ebay",
+    "score": 66,
+    "is_sale_page": true,
+    "price_usd": 32.0,
+    "price_raw": "32.00 USD",
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-28T03:56:37.098110+00:00"
+  },
+  {
+    "product_id": "iraqi-kiddush-cup",
+    "product_name": "גביע קידוש עירקי",
+    "alert_email_key": "",
+    "alert_email": "",
+    "title": "A Group Of Four Silver Kiddush Cups - LiveAuctioneers",
+    "snippet": "USA and Russia. Each engraved with typical period design.9.1 troy ounces. Includes a large goblet given to the now defu",
+    "url": "https://www.liveauctioneers.com/price-result/a-group-of-four-silver-kiddush-cups/",
+    "source": "duckduckgo",
+    "score": 66,
+    "is_sale_page": false,
+    "price_usd": null,
+    "price_raw": null,
+    "ships_to_target": null,
+    "ship_to_label": "ישראל",
+    "notified": false,
+    "found_at": "2026-11-28T03:56:39.196791+00:00"
   }
 ]
